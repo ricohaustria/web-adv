@@ -1,6 +1,8 @@
-# Basic Syntax
+# Markdown
 
-## Formatting
+## Basic Syntax
+
+### Formatting
 
 <!-- Headings -->
 
