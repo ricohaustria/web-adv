@@ -15,15 +15,17 @@ import { FirebaseComponent } from "./firebase/firebase.component";
 import { MaterialModule } from "./material.module";
 import { AuthService } from "./firebase/auth.service";
 import { AuthInterceptor } from "./auth.interceptor";
+import { environment } from "src/environments/environment";
 
-export const firebaseConfig = {
-  apiKey: "AIzaSyAOdenXy2X7kx9LWwVHk9zn3Humr2Cl9Tc",
-  authDomain: "vouchers-c334a.firebaseapp.com",
-  databaseURL: "https://vouchers-c334a.firebaseio.com",
-  projectId: "vouchers-c334a",
-  storageBucket: "vouchers-c334a.appspot.com",
-  messagingSenderId: "269739409229"
-};
+// export const firebaseConfig = {
+//   apiKey: "AIzaSyAed-OAkXVgn_BHewFkPgUWQO8o1t-Kcuk",
+//   authDomain: "xskills-661db.firebaseapp.com",
+//   databaseURL: "https://xskills-661db.firebaseio.com",
+//   projectId: "xskills-661db",
+//   storageBucket: "",
+//   messagingSenderId: "308138681179",
+//   appId: "1:308138681179:web:b7e4b089734417ff"
+// };
 
 @NgModule({
   declarations: [
@@ -37,7 +39,7 @@ export const firebaseConfig = {
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
-    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     MaterialModule
   ],

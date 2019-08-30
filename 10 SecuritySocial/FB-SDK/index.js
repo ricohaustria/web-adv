@@ -1,6 +1,6 @@
 window.fbAsyncInit = function() {
   FB.init({
-    appId: "898401927004251",
+    appId: "862799617412249",
     cookie: true,
     xfbml: true,
     version: "v2.8"
@@ -63,9 +63,7 @@ function buildProfile(user) {
                     <li class="list-group-item">User ID: ${user.id}</li>
                     <li class="list-group-item">Email: ${user.email}</li>
                     <li class="list-group-item">Birthday: ${user.birthday}</li>
-                    <li class="list-group-item">User ID: ${
-                      user.location.name
-                    }</li>
+                    <li class="list-group-item">User ID: ${user.location.name}</li>
                   </ul>
                 `;
   document.getElementById("profile").innerHTML = profile;
