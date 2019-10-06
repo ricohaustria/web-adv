@@ -4,7 +4,7 @@ In dem Seminar „Advanced Web Technologies“ lernen Sie aktuelle Werkzeuge fü
 Bei den eingesetzten Sprachen, JavaScript und TypeScript, legen wir Wert darauf, modernen Syntax zu verwenden und vermitteln aktuelle Konzepte wir Reactive Programming, sowie modulares, und funktionales Programmieren.
 Wir vermitteln die neuesten Skills im Bereich responsive UI Design, auch am Beispiel von Bootstrap 4, und stellen aktuelle JavaScript Frameworks wie Angular, Vue.js und React vor. Wir behandeln die Themen Real Time Applications, Offline Verfügbarkeit und Nutzung von HTML APIs wie Gelolocation, Gerätezugriff.
 
-Nach Abschluss dieses Seminars haben die Teilnehmer Wissen zu folgenden Themen:
+Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über modernes "Full-Stack-Development"
 
 - VS Code und Github nutzen
 - Node.js verstehen und einsetzen
@@ -27,11 +27,12 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 
 ## Introduction & Tooling
 
-- Visual Studio Code Essentials
+- Visual Studio Code Essentials (Settings, Keybinding, ...)
 - Useful Extensions Visual Studio Code
 - Using GitHub – Repos, Basic Commands, Branching & History
 - Git Flow, Pull Requests
-- Using Stackblitz to execute & edit Projects in the Browser
+- Introduction to Continous Integration / Continous Deployment
+- Using Online Editors: Stackblitz
 
 # Node.js & Tooling
 
@@ -114,7 +115,6 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Observable Operators
 - Converting Promises to Observables
 - Consuming DOM events as Observables
-- Consuming Webhooks
 
 # Building Real Time Applications
 
@@ -128,6 +128,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Common Client Side DBs
 - Implementing Progressive Web Apps
 - What are Progressive Web Apps (PWA)
+- Consuming Webhooks
 
 # HTML 5 APi’s & Device Access
 
