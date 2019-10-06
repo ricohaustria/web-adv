@@ -13,7 +13,7 @@ Nach Abschluss dieses Seminars haben die Teilnehmer Wissen zu folgenden Themen:
 - Verstehen des Reactiv Programmierpatterns mit RxJS
 - Implementieren eines Resposive User Interfaces mit CSS Grid & Flexbox
 - Verwenden von Bootstrap 4
-- Designing & Implementing Api’s
+- Designing & Implementing Api’s & Graphs
 - Kennen von aktuellen JavaScript Frameworks: Angular, Vue.js, React
 - Implementieren von Real Time Anwendungen
 - Unterstützen von Offlineverfügbarkeit
@@ -21,7 +21,7 @@ Nach Abschluss dieses Seminars haben die Teilnehmer Wissen zu folgenden Themen:
 - Verwenden von Tokenbasierender Authentifizierung
 - Integration Sozialer Netzwerke und Dienste: Facebook & Paypal
 
-Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen erarbeitet. Am Ende jedes Tages gibt es ca. 1 ½ Std „Lab of the day“ mit Aufgabenstellung, dazugehöriger Lösung und der Möglichkeit, diese zu diskutieren. Alle Beispiele werden über Github verteilt – als Editor setzen wir Visual Studio Code ein. Wir verwenden Branches, um schnell, und vor Allem übersichtlich zwischen den verschiedenen Entwicklungsstadien wechseln zu können.
+Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen erarbeitet. Am Ende jedes Tages gibt es ca. 2 Std „Lab of the day“ mit Aufgabenstellung, dazugehöriger Lösung und der Möglichkeit, diese zu diskutieren. Alle Beispiele werden über Github verteilt – als Editor setzen wir Visual Studio Code ein. Wir verwenden Branches, um schnell, und vor Allem übersichtlich zwischen den verschiedenen Entwicklungsstadien wechseln zu können.
 
 # Inhalte
 
@@ -55,6 +55,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Types, Functions & Enums
 - Using 3rd Party Libraries & Type Definitions
 - Objects, Classes, Interfaces, Enums Generics
+- Linting & Code Formatting using TSLint & Prettier
 
 # Bundling & Compiling using Webpack
 
@@ -65,7 +66,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Advanced Bundling: Vendor-, HTML-, CSS-Bundles
 - Ensuring Browser Compatibility using Polyfills & Shims
 
-# Designing & Implementing Api’s
+# Designing & Implementing Api’s & Graphs
 
 - Rest Api’s Overview
 - Using Swagger to Design / Document the Api
