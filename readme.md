@@ -69,8 +69,9 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 # Designing & Implementing Api’s & Graphs
 
 - Rest Api’s Overview
+- Client Side vs Server Side Models
+- Implementing Api’s using Common Frameworks (Node.js, .NET Core, NestJS)
 - Using Swagger to Design / Document the Api
-- Implementing Api’s using Common Frameworks (Node.js, .NET Core)
 - Api Abstraction using GraphQL & Appllo Server
 
 # Implementing a Responsive User Interface
