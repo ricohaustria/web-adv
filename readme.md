@@ -29,12 +29,16 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 
 - Visual Studio Code Essentials (Settings, Keybinding, ...)
 - Useful Extensions Visual Studio Code
-- Using GitHub – Repos, Basic Commands, Branching & History
-- Git Flow, Pull Requests
-- Introduction to Continous Integration / Continous Deployment
 - Using Online Editors: Stackblitz
 
-# Node.js & Tooling
+## Introduction to Git & GitHub
+
+- Git's Role in modern CI / CD
+- Using GitHub – Repos, Basic Commands, Branching & History
+- Git Flow,
+- Forking &Pull Requests
+
+## Node.js & Tooling
 
 - Node.js Role in modern Web Development
 - Node Basics & Configuration
@@ -42,14 +46,15 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Task Automation using NPM- & Gulp Scripts
 - Create & Publish NPM Packages
 
-# Using modern JavaScript
+## Using modern JavaScript
 
+- History of ECMA Script Standards
 - ES6 Array Helpers & Utility Functions
 - Classes, Inheritance
 - Global Scope, Modules, Exports- und Imports
-- JSON & Async Operations using Promises, Fetch Api & Async Await
+- Async Operations using Fetch Api, Promises & Async Await
 
-# TypeScript
+## TypeScript
 
 - TypeScript Overview & Language
 - Debugging using Source Maps
@@ -58,7 +63,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Objects, Classes, Interfaces, Enums Generics
 - Linting & Code Formatting using TSLint & Prettier
 
-# Bundling & Compiling using Webpack
+## Bundling & Compiling using Webpack
 
 - What is Webpack
 - Creating & Analyzing Bundles
@@ -67,7 +72,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Advanced Bundling: Vendor-, HTML-, CSS-Bundles
 - Ensuring Browser Compatibility using Polyfills & Shims
 
-# Designing & Implementing Api’s & Graphs
+## Designing & Implementing Api’s & Graphs
 
 - Rest Api’s Overview
 - Client Side vs Server Side Models
@@ -75,7 +80,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Using Swagger to Design / Document the Api
 - Api Abstraction using GraphQL & Appllo Server
 
-# Implementing a Responsive User Interface
+## Implementing a Responsive User Interface
 
 - Understanding Mobile First
 - Units: px, % versus rem, em, vh
