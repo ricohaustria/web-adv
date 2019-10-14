@@ -29,6 +29,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 
 - Visual Studio Code Essentials (Settings, Keybinding, ...)
 - Useful Extensions Visual Studio Code
+- Effective HTML using Emmet
 - Using Online Editors: Stackblitz
 
 ## Introduction to Git & GitHub
@@ -36,6 +37,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Git's Role in modern CI / CD
 - Using GitHub – Repos, Basic Commands, Branching & History
 - Forking, Pull Requests & Git Flow
+- Repo Documentation using Markdown
 
 ## Automation & Packaging using Node.js & NPM
 
