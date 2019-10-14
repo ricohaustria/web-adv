@@ -83,24 +83,21 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 ## Implementing a Responsive User Interface
 
 - Understanding Mobile First
+- Understanding Media Queries and Responsive Breakpoints
 - Units: px, % versus rem, em, vh
 - Syntactically Awesome Style Sheets Basics (Sass)
-- Sass Variables, Calculations, Conditions and Loops
 - Sass Mixins, Partials & Imports
-- Using Sass Sourcemaps
-- Using Image Sprites, Web Fonts & Icons
-- Understanding Media Queries and Responsive Breakpoints
-- Understanding & Using Flexbox
-- Using CSS Grid
-- Reusability using Shadow Dom & Web Components
+- Style Isolation using Shadow Dom & Web Components
+- Understanding & and sing Flexbox & CSS Grid
+- Web Fonts & Icons
 
-# Introduction Bootstrap
+## Introduction Bootstrap
 
 - Grids and Containers
 - Components & Utilities
 - Customizing a Bootstrap Theme
 
-# Overview current JavaScript Frameworks
+## Overview current JavaScript Frameworks
 
 - Angular Introduction
 - Angular - Hello World
@@ -109,43 +106,39 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Vue.js Introduction
 - Vue.js –Hello World
 
-# Using Reactive Extensions for JavaScript – RxJS
+## Understanding Reactive Extensions for JavaScript – RxJS
 
-- Introduction to Functional Programming
-- Immutability
-- Observer, Observable, Subject
-- Promises vs Observables
 - Understanding & using the Benefits of Reactive Programming
+- Functional Programming & Immutability
+- Observer, Observable, Subject
 - Observable Operators
-- Converting Promises to Observables
-- Consuming DOM events as Observables
 
-# Real Time Applications & Progressive Web Apps
+## Real Time Applications & Progressive Web Apps
 
 - Overview
 - Common Real Time Libraries (Socket.io, SignalR)
 - Implementing Real Time Apps
-- Supporting Offline Availability
-- Why Offline?
 - Understanding Offline First
 - Local Storage, Indexed DB & Web SQL
 - What are Progressive Web Apps (PWA)
 - Implementing Progressive Web Apps
 
-# HTML 5 APi’s & Device Access
+## HTML 5 APi’s & Device Access
 
 - Overview Device Access & HTML Apis
-- URI Schemas
 - Geolocation
 - Device Orientation Events
 - Media Capture
 - Other APIs (Camera, Battery Status, Vibration, Bluetooth ..)
 
-# Security & Social
+## Introduction to Token Based Authentication
 
-- Windows vs Token Based Authentication
-- oAuth2 & openID Connect
+- Classic vs Token Based Authentication
+- OpenID Connect, JSON Web Tokens (jwt) and oAuth
 - Using Social Authentication
+
+## Consuming Common Social Services
+
 - Facebook Introduction
 - Consuming Facebook Graph
 - Using the Paypal SDK
