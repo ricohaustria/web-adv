@@ -93,7 +93,6 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Understanding & Using Flexbox
 - Using CSS Grid
 - Reusability using Shadow Dom & Web Components
-- Using & Customizing Bootstrap 4
 
 # Introduction Bootstrap
 
@@ -121,7 +120,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Converting Promises to Observables
 - Consuming DOM events as Observables
 
-# Building Real Time Applications
+# Real Time Applications & Progressive Web Apps
 
 - Overview
 - Common Real Time Libraries (Socket.io, SignalR)
@@ -130,10 +129,8 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Why Offline?
 - Understanding Offline First
 - Local Storage, Indexed DB & Web SQL
-- Common Client Side DBs
-- Implementing Progressive Web Apps
 - What are Progressive Web Apps (PWA)
-- Consuming Webhooks
+- Implementing Progressive Web Apps
 
 # HTML 5 APi’s & Device Access
 
@@ -142,8 +139,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Geolocation
 - Device Orientation Events
 - Media Capture
-- Web Speech
-- Using APIs (Camera, Battery Status, Vibration, Bluetooth ..)
+- Other APIs (Camera, Battery Status, Vibration, Bluetooth ..)
 
 # Security & Social
 
