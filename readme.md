@@ -35,16 +35,17 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 
 - Git's Role in modern CI / CD
 - Using GitHub – Repos, Basic Commands, Branching & History
-- Git Flow,
-- Forking &Pull Requests
+- Forking, Pull Requests & Git Flow
 
-## Node.js & Tooling
+## Automation & Packaging using Node.js & NPM
 
 - Node.js Role in modern Web Development
 - Node Basics & Configuration
 - Package Management using NPM & Yarn
 - Task Automation using NPM- & Gulp Scripts
-- Create & Publish NPM Packages
+- Creating Webpack Bundles
+- Ensuring Browser Compatibility using Polyfills & Shims
+- Creating & Publishing NPM Packages
 
 ## Using modern JavaScript
 
@@ -60,17 +61,8 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Debugging using Source Maps
 - Types, Functions & Enums
 - Using 3rd Party Libraries & Type Definitions
-- Objects, Classes, Interfaces, Enums Generics
-- Linting & Code Formatting using TSLint & Prettier
-
-## Bundling & Compiling using Webpack
-
-- What is Webpack
-- Creating & Analyzing Bundles
-- Debugging with Webpack Dev Server
-- Watch Mode & Hot- vs Live Reload
-- Advanced Bundling: Vendor-, HTML-, CSS-Bundles
-- Ensuring Browser Compatibility using Polyfills & Shims
+- Objects, Classes, Interfaces, Enums
+- Ensuring Code Quality using TSLint & Prettier
 
 ## Designing & Implementing Api’s & Graphs
 
@@ -113,7 +105,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Observer, Observable, Subject
 - Observable Operators
 
-## Real Time Applications & Progressive Web Apps
+## Real Time & Offline Apps
 
 - Use Cases for Real Time Apps
 - Common Real Time Libraries
@@ -121,7 +113,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Understanding Offline First
 - Local Storage, Indexed DB & Web SQL
 - What are Progressive Web Apps (PWA)
-- Introf to Progressive Web Apps
+- Progressive Web Apps HelloWorld
 
 ## HTML 5 APi’s & Device Access
 
@@ -129,12 +121,12 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Geolocation
 - Device Orientation Events
 - Media Capture
-- Other APIs (Camera, Battery Status, Vibration, Bluetooth ..)
+- Other APIs (Battery Status, Vibration, Bluetooth ...)
 
 ## Introduction to Token Based Authentication
 
 - Classic vs Token Based Authentication
-- OpenID Connect, JSON Web Tokens (jwt) and oAuth
+- OpenID Connect, JSON Web Tokens (Jwt) & oAuth
 - Using Social Authentication
 
 ## Consuming Common Social Services
