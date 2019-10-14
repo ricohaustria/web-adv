@@ -55,7 +55,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Global Scope, Modules, Exports- und Imports
 - Async Operations using Fetch Api, Promises & Async Await
 
-## TypeScript
+## Introduction to TypeScript
 
 - TypeScript Overview & Language
 - Debugging using Source Maps
