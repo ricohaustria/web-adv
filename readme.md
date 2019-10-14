@@ -121,7 +121,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Understanding Offline First
 - Local Storage, Indexed DB & Web SQL
 - What are Progressive Web Apps (PWA)
-- Implementing Progressive Web Apps
+- Introf to Progressive Web Apps
 
 ## HTML 5 APi’s & Device Access
 
