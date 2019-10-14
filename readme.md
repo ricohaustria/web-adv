@@ -115,9 +115,9 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 
 ## Real Time Applications & Progressive Web Apps
 
-- Overview
-- Common Real Time Libraries (Socket.io, SignalR)
-- Implementing Real Time Apps
+- Use Cases for Real Time Apps
+- Common Real Time Libraries
+- Implementing Real Time Apps using SignalR
 - Understanding Offline First
 - Local Storage, Indexed DB & Web SQL
 - What are Progressive Web Apps (PWA)
