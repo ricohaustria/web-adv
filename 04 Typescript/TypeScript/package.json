@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "npm run webpack",
-    "webpack": "webpack -d --watch"
+    "build": "webpack",
+    "webpack-watch": "webpack -d --watch",
+    "web": "angular-http-server --path ./src/ -o"
   },
   "dependencies": {
     "jquery": "^3.4.1",
@@ -15,6 +16,7 @@
   "devDependencies": {
     "@types/jquery": "^3.3.2",
     "@types/node": "~8.9.4",
+    "angular-http-server": "^1.9.0",
     "autoprefixer": "^9.3.1",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.0",

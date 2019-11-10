@@ -1,22 +1,14 @@
-import { LoadingDemos } from "./loading";
-import { ClassesDemos } from "./classes";
-import { FunctionDemos } from "./functions";
-import { GenericsDemos } from "./generics";
-import { InterfacesDemos } from "./interfaces";
-import { ObjectDemos } from "./objects";
-import { TypesDemos } from "./types";
-import { ServicesDemos } from "./services";
-import { ModulesDemos } from "./modules";
+import { ClassesDemos } from './classes';
+import { FunctionDemos } from './functions';
+import { GenericsDemos } from './generics';
+import { InterfacesDemos } from './interfaces';
+import { ObjectDemos } from './objects';
+import { TypesDemos } from './types';
+import { ServicesDemos } from './services';
+import { ModulesDemos } from './modules';
 
-import * as $ from "jquery";
-import { RxJSDemos } from "./rxjs";
-
-//Code based Binding
-
-document.addEventListener("DOMContentLoaded", () => {
-  let btn = document.querySelector("#lnkBind");
-  btn.addEventListener("click", (e: Event) => loadContent("loading.html"));
-});
+import * as $ from 'jquery';
+import { RxJSDemos } from './rxjs';
 
 //export method to global namespace - otherwise is is not available for function call
 
@@ -24,14 +16,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 export function loadContent(page) {
   $.ajax({
-    type: "GET",
+    type: 'GET',
     url: page,
-    contentType: "application/json; charset=utf-8",
-    dataType: "text",
+    contentType: 'application/json; charset=utf-8',
+    dataType: 'text',
     success: function(data) {
       if (data != null) {
-        $("#workbench").empty();
-        $("#workbench").html(data);
+        $('#workbench').empty();
+        $('#workbench').html(data);
       }
     },
     error: function(msg) {
@@ -44,14 +36,14 @@ export function loadContent(page) {
 export class Loader {
   load(page) {
     $.ajax({
-      type: "GET",
+      type: 'GET',
       url: page,
-      contentType: "application/json; charset=utf-8",
-      dataType: "text",
+      contentType: 'application/json; charset=utf-8',
+      dataType: 'text',
       success: function(data) {
         if (data != null) {
-          $("#workbench").empty();
-          $("#workbench").html(data);
+          $('#workbench').empty();
+          $('#workbench').html(data);
         }
       },
       error: function(msg) {
@@ -64,10 +56,7 @@ export class Loader {
 //exporting an object
 (<any>window).loader = new Loader();
 
-(<any>window).loadingDemos = new LoadingDemos();
-
 //Using export from webpack.config.js
-
 class Demos {
   types = new TypesDemos();
   classes = new ClassesDemos();
