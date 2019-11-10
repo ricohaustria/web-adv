@@ -21,7 +21,8 @@ h3 {
 
 a {
   display: block;
-  text-decoration: none;
+  cursor: pointer;
+  /* text-decoration: none; */
 }
 
 a:hover {
