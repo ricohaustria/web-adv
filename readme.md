@@ -25,11 +25,10 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 
 # Inhalte
 
-## Introduction & Tooling
+## Using VS Code
 
 - Visual Studio Code Essentials (Settings, Keybinding, ...)
 - Useful Extensions Visual Studio Code
-- Effective HTML using Emmet
 - Using Online Editors: Stackblitz
 
 ## Introduction to Git & GitHub
@@ -39,15 +38,12 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Forking, Pull Requests & Git Flow
 - Repo Documentation using Markdown
 
-## Automation & Packaging using Node.js & NPM
+## Node.js
 
 - Node.js Role in modern Web Development
 - Node Basics & Configuration
 - Package Management using NPM & Yarn
 - Task Automation using NPM- & Gulp Scripts
-- Creating Webpack Bundles
-- Ensuring Browser Compatibility using Polyfills & Shims
-- Creating & Publishing NPM Packages
 
 ## Using modern JavaScript
 
@@ -66,30 +62,32 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Objects, Classes, Interfaces, Enums
 - Ensuring Code Quality using TSLint & Prettier
 
+## Packaging & Reusing Code using Webpack & NPM
+
+- Creating Webpack Bundles
+- Ensuring Browser Compatibility using Polyfills & Shims
+- Creating & Publishing NPM Packages
+
 ## Designing & Implementing Api’s & Graphs
 
 - Rest Api’s Overview
-- Client Side vs Server Side Models
-- Implementing Api’s using Common Frameworks (Node.js, .NET Core, NestJS)
+- Client Side vs Server Side Data Models
 - Using Swagger to Design / Document the Api
-- Api Abstraction using GraphQL & Appllo Server
+- Implementing Api’s using Common Frameworks (Node.js, .NET Core, NestJS)
+- Implementing Graphs using GraphQL & Appllo Server
 
 ## Implementing a Responsive User Interface
 
 - Understanding Mobile First
 - Understanding Media Queries and Responsive Breakpoints
 - Units: px, % versus rem, em, vh
+- Effective HTML using Emmet
 - Syntactically Awesome Style Sheets Basics (Sass)
 - Sass Mixins, Partials & Imports
 - Style Isolation using Shadow Dom & Web Components
 - Understanding & and sing Flexbox & CSS Grid
 - Web Fonts & Icons
-
-## Introduction Bootstrap
-
-- Grids and Containers
-- Components & Utilities
-- Customizing a Bootstrap Theme
+- Introduction to Bootstrap
 
 ## Overview current JavaScript Frameworks
 
@@ -107,7 +105,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Observer, Observable, Subject
 - Observable Operators
 
-## Real Time & Offline Apps
+## Introduction to Real Time- & Offline Apps
 
 - Use Cases for Real Time Apps
 - Common Real Time Libraries
@@ -115,14 +113,13 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Understanding Offline First
 - Local Storage, Indexed DB & Web SQL
 - What are Progressive Web Apps (PWA)
-- Progressive Web Apps HelloWorld
+- Progressive Web Apps Hello World
 
 ## HTML 5 APi’s & Device Access
 
 - Overview Device Access & HTML Apis
-- Geolocation
+- Geolocation & Media Capture
 - Device Orientation Events
-- Media Capture
 - Other APIs (Battery Status, Vibration, Bluetooth ...)
 
 ## Introduction to Token Based Authentication
