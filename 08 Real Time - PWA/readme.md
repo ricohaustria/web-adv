@@ -88,15 +88,15 @@ curl -X POST \
 
 ## Tools
 
-### Http-Server
+### Angular-Http-Server
 
 Can be used to serve your Angular Production Build
 
 ```
-npm install http-server -g
+npm install -g angular-http-server
 ng build --prod
-cd .\dist\ngSkillsPWA\
-http-server
+cd .\dist\skillspwa\
+angular-http-server
 ```
 
 #### Use loopback
