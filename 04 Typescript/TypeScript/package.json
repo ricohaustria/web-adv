@@ -8,6 +8,7 @@
     "web": "angular-http-server --path ./src/ -o"
   },
   "dependencies": {
+    "date-fns": "^2.7.0",
     "jquery": "^3.4.1",
     "linqts": "^1.12.2",
     "moment": "^2.22.2",

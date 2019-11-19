@@ -1,13 +1,13 @@
-import * as $ from 'jquery'; //Non ES6 Moduel import
-import * as moment from 'moment'; //Non ES6 Moduel import
-import { List } from 'linqts';
-import { Voucher } from './model';
+import * as $ from "jquery"; //Non ES6 Moduel import
+import * as moment from "moment"; //Non ES6 Moduel import
+import addDays from "date-fns/addDays";
+import { Voucher } from "./model";
 
 export class TypesDemos {
   basicVariables() {
     debugger;
 
-    var myname: string = 'alex';
+    var myname: string = "alex";
 
     //Numbers
     var age: number;
@@ -23,19 +23,19 @@ export class TypesDemos {
     // numbers.push("two"); // compile-time error
 
     let notSure: any = 4;
-    notSure = 'maybe a string instead';
+    notSure = "maybe a string instead";
     notSure = false; // okay, definitely a boolean
 
     var isCustomer: boolean = false;
     var finished = false;
 
     //strings
-    var dogName: string = 'Giro';
-    var otherDogName = 'Soi';
-    var myString = 'ten';
+    var dogName: string = "Giro";
+    var otherDogName = "Soi";
+    var myString = "ten";
 
-    var strings: Array<string> = ['hubert', 'Sam'];
-    strings.push('Hans');
+    var strings: Array<string> = ["hubert", "Sam"];
+    strings.push("Hans");
     //strings[1] = 1337; // compile time error
 
     // Function returning never must have unreachable end point
@@ -52,27 +52,27 @@ export class TypesDemos {
     debugger;
 
     var index: number = 0;
-    var array = ['a', 'b', 'c'];
+    var array = ["a", "b", "c"];
     for (let index: number = 0; index < array.length; index++) {
-      console.log('Inside for ...' + index);
-      console.log('Inside for ...' + array[index]);
+      console.log("Inside for ..." + index);
+      console.log("Inside for ..." + array[index]);
     }
     console.log(index); // 0
     const pi = 3.14;
     //pi = 2;
 
-    const person = { name: 'john', age: 22 };
-    person.name = 'franz';
+    const person = { name: "john", age: 22 };
+    person.name = "franz";
   }
 
   stringFunctions() {
     debugger;
 
     var productID = 100;
-    var category = 'music';
+    var category = "music";
 
     //string concatenation
-    var url = 'http://server/' + category + '/' + productID;
+    var url = "http://server/" + category + "/" + productID;
     console.log(url);
 
     //Template Literals using Backticks
@@ -80,13 +80,13 @@ export class TypesDemos {
     console.log(tl);
 
     //startswith
-    var str = 'To be, or not to be, that is the question.';
-    console.log(str.startsWith('To be')); // true
-    console.log(str.endsWith('question.')); // true
+    var str = "To be, or not to be, that is the question.";
+    console.log(str.startsWith("To be")); // true
+    console.log(str.endsWith("question.")); // true
 
     //include -> C# string.contains
     function countString(ts) {
-      const characters = ['a', 'b', 'c'];
+      const characters = ["a", "b", "c"];
       let ct = 0;
 
       //Old style string iteration
@@ -111,7 +111,7 @@ export class TypesDemos {
       return ct;
     }
 
-    console.log(`chars included in your string: ${countString('abheben')}`);
+    console.log(`chars included in your string: ${countString("abheben")}`);
   }
 
   useVoidAny() {
@@ -120,7 +120,7 @@ export class TypesDemos {
     function handleClick(): void {
       var g = "I don't return anything.";
       console.log(g);
-      //return g;
+      // return g;
     }
 
     //let nonsens: void = 10; //Conversion error
@@ -143,9 +143,9 @@ export class TypesDemos {
     let isHappy: Happyness = Happyness.happy;
 
     enum Sex {
-      male = 'm',
-      female = 'f',
-      undefined = 'u'
+      male = "m",
+      female = "f",
+      undefined = "u"
     }
 
     enum VoucherStatus {
@@ -175,7 +175,7 @@ export class TypesDemos {
           console.log(`got voucher ${v}: will call the accountant`);
           break;
         default:
-          console.log('...');
+          console.log("...");
           break;
       }
     }
@@ -184,7 +184,7 @@ export class TypesDemos {
 
     let v: Voucher = <Voucher>{
       ID: 1,
-      Text: 'Media Markt',
+      Text: "Media Markt",
       Amount: 22,
       Date: new Date()
     };
@@ -192,27 +192,30 @@ export class TypesDemos {
     handleVoucher(v, status);
   }
 
-  useTypings() {
+  useThirdPartyLib() {
     //using moment
     let dt = new Date(1990, 3, 2);
-    console.log('Using time format: ', moment(dt).format('LTS'));
+    console.log("Using time format: ", moment(dt).format("LTS"));
+
+    //using date-fns
+    const newDate = addDays(dt, 10);
 
     //using jQuery
-    let myArray = ['Angular', 'React', 'SPFx'];
-    console.log('myArray is an Array: ', $.isArray(myArray));
+    let myArray = ["Angular", "React", "SPFx"];
+    console.log("myArray is an Array: ", $.isArray(myArray));
   }
 
   introArrays() {
     debugger;
 
     //declaration using type followed by []
-    var customers: string[] = ['Alex', 'Giro', 'Sonja', 'Soi', 'David'];
+    var customers: string[] = ["Alex", "Giro", "Sonja", "Soi", "David"];
     //declaration using generic array type
     let nbrs: Array<number> = [3, 4, 5];
 
-    console.log(customers.length + 'Persons in Array');
-    customers[2] = 'Brunhilde';
-    console.log('Person with index 1 is' + customers[1]);
+    console.log(customers.length + "Persons in Array");
+    customers[2] = "Brunhilde";
+    console.log("Person with index 1 is" + customers[1]);
 
     //for ... of
     let list: number[] = [4, 5, 6];
@@ -230,7 +233,7 @@ export class TypesDemos {
     let [first, second, third] = arrNbr;
     console.log(third, second, first); // output: 100, 4, 8
 
-    let myArray = [1, ['hello'], true],
+    let myArray = [1, ["hello"], true],
       [a, b, c] = myArray;
 
     // output: 1, ['hello']
@@ -241,9 +244,9 @@ export class TypesDemos {
     debugger;
 
     var fruits = [
-      { name: 'apples', quantity: 2, price: 3, region: 'europe' },
-      { name: 'bananas', quantity: 0, price: 5, region: 'caribean' },
-      { name: 'cherries', quantity: 5, price: 8, region: 'europe' }
+      { name: "apples", quantity: 2, price: 3, region: "europe" },
+      { name: "bananas", quantity: 0, price: 5, region: "caribean" },
+      { name: "cherries", quantity: 5, price: 8, region: "europe" }
     ]; //-> Json Objects from REST call
 
     //typical ECMA Script 5 pattern
@@ -269,7 +272,7 @@ export class TypesDemos {
 
     //find -> returns first item
     var cherry = fruits.find(function(fruit) {
-      return fruit.name === 'cherries';
+      return fruit.name === "cherries";
     });
     console.log(cherry);
 
@@ -308,15 +311,15 @@ export class TypesDemos {
     var total: number = arr.reduce(function(a, b) {
       return a + b;
     }, 0);
-    console.log('total is : ' + total);
+    console.log("total is : " + total);
 
     var rockets = [
-      { country: 'Russia', launches: 32 },
-      { country: 'US', launches: 23 },
-      { country: 'China', launches: 16 },
-      { country: 'Europe(ESA)', launches: 7 },
-      { country: 'India', launches: 4 },
-      { country: 'Japan', launches: 3 }
+      { country: "Russia", launches: 32 },
+      { country: "US", launches: 23 },
+      { country: "China", launches: 16 },
+      { country: "Europe(ESA)", launches: 7 },
+      { country: "India", launches: 4 },
+      { country: "Japan", launches: 3 }
     ];
 
     var launches = rockets.reduce(function(prevVal, elem) {
@@ -325,12 +328,12 @@ export class TypesDemos {
 
     launches = rockets.reduce((prevVal, elem) => prevVal + elem.launches, 0); //same as above
 
-    console.log('launche so far: ', launches);
+    console.log("launche so far: ", launches);
 
     //splice -> manipulate arrays
 
-    var dogs = ['whippet', 'galgo espanol', 'magyar whistler', 'magyar agar'];
-    dogs.splice(2, 0, 'chart polski');
+    var dogs = ["whippet", "galgo espanol", "magyar whistler", "magyar agar"];
+    dogs.splice(2, 0, "chart polski");
     console.log(dogs); //["whippet", "galgo espanol", "chart polski", "magyar whistler", "magyar agar"]
     dogs.splice(3, 1);
     console.log(dogs); //["whippet", "galgo espanol", "chart polski", "magyar agar"]
@@ -339,11 +342,17 @@ export class TypesDemos {
     const orders = [
       {
         orderId: 1,
-        items: [{ name: 'abc', price: 2.22 }, { name: 'ded', price: 4.22 }]
+        items: [
+          { name: "abc", price: 2.22 },
+          { name: "ded", price: 4.22 }
+        ]
       },
       {
         orderId: 2,
-        items: [{ name: 'asdfbc', price: 6.22 }, { name: 'sdf', price: 8.22 }]
+        items: [
+          { name: "asdfbc", price: 6.22 },
+          { name: "sdf", price: 8.22 }
+        ]
       }
     ];
 
@@ -359,24 +368,24 @@ export class TypesDemos {
 
     let dogs: Dog[] = [
       {
-        name: 'Cleo',
+        name: "Cleo",
         age: 17,
-        breed: 'Whippet'
+        breed: "Whippet"
       },
       {
-        name: 'Giro',
+        name: "Giro",
         age: 9,
-        breed: 'Galgo Espanol'
+        breed: "Galgo Espanol"
       },
       {
-        name: 'Flora',
+        name: "Flora",
         age: 7,
-        breed: 'Italian Sighthound'
+        breed: "Italian Sighthound"
       },
       {
-        name: 'Soi',
+        name: "Soi",
         age: 5,
-        breed: 'Whippet'
+        breed: "Whippet"
       }
     ];
 
@@ -389,19 +398,19 @@ export class TypesDemos {
     function getAges(doggies) {
       let sum = 0;
       for (var i = 0; i < doggies.length; i++) {
-        if (doggies[i].breed === 'Whippet') {
+        if (doggies[i].breed === "Whippet") {
           let tempAge = doggies[i].age;
           sum += tempAge * 7;
         }
       }
       return sum;
     }
-    console.log('Ages using for loop: ', getAges(dogs));
+    console.log("Ages using for loop: ", getAges(dogs));
 
     // functional approach
 
     let whippets = dogs.filter(dog => {
-      return dog.breed === 'Whippet';
+      return dog.breed === "Whippet";
     });
 
     let adjustAge = dogs.map(dog => dog.age * 7);
@@ -416,7 +425,7 @@ export class TypesDemos {
         return sum + animal_age;
       });
 
-    console.log('Ages using functional approach: ', getAges(dogs));
+    console.log("Ages using functional approach: ", getAges(dogs));
   }
 
   restParams() {
@@ -427,8 +436,8 @@ export class TypesDemos {
       bets.forEach((nbr: number) => console.log(nbr));
     }
 
-    playLotto('Hannes', 3, 12, 45, 48);
-    playLotto('Hugo', 3, 12, 45, 48, 55, 22);
+    playLotto("Hannes", 3, 12, 45, 48);
+    playLotto("Hugo", 3, 12, 45, 48, 55, 22);
 
     var shop: any = new Array();
     shop.category = new Map();
@@ -444,12 +453,12 @@ export class TypesDemos {
       });
     };
 
-    shop.add('fruits', 'apple');
-    shop.add('dairy', 'milk', 'cheese', 'yoghurt');
-    shop.add('pastries', 'donuts', 'croissants');
-    shop.add('cleaning', 'soap', 'body lotion', 'shampoo', 'tooth brush');
+    shop.add("fruits", "apple");
+    shop.add("dairy", "milk", "cheese", "yoghurt");
+    shop.add("pastries", "donuts", "croissants");
+    shop.add("cleaning", "soap", "body lotion", "shampoo", "tooth brush");
 
-    console.log('There are the following products in the store', shop);
+    console.log("There are the following products in the store", shop);
   }
 
   spreadOperator() {
@@ -462,7 +471,7 @@ export class TypesDemos {
     let arr1 = [1, -2, 3, 90];
     let arr2 = [8, 3, -8, 1];
 
-    console.log('Maximum is', Math.max(1, ...arr1, 2, ...arr2, 25)); // 90
+    console.log("Maximum is", Math.max(1, ...arr1, 2, ...arr2, 25)); // 90
 
     //Sample from Above
 
@@ -471,11 +480,11 @@ export class TypesDemos {
       bets.forEach((nbr: number) => console.log(nbr));
     }
 
-    playLotto('Hannes', 3, 12, 45, 48);
+    playLotto("Hannes", 3, 12, 45, 48);
 
     let numbers = [3, 12, 45, 48];
     //calling a function with ...rest param using ...spread
-    playLotto('Hannes', ...numbers);
+    playLotto("Hannes", ...numbers);
   }
 
   //-> C# Dictionary
@@ -483,29 +492,29 @@ export class TypesDemos {
     debugger;
 
     var myMap = new Map<string, any>();
-    var myString = 'a string';
-    var voucher = { Id: 33, Text: 'Diesel', Amount: 56 };
+    var myString = "a string";
+    var voucher = { Id: 33, Text: "Diesel", Amount: 56 };
     var logFunction = function(param) {
       console.log(`logFuntion is logging: ${param}`);
     };
 
     // consts are sometimes easier to use
-    const keyObject = 'keyObject';
-    const keyFunct = 'keyFunct';
+    const keyObject = "keyObject";
+    const keyFunct = "keyFunct";
 
     // setting the values
-    myMap.set('keyString', myString);
+    myMap.set("keyString", myString);
     myMap.set(keyObject, voucher);
     myMap.set(keyFunct, logFunction);
 
-    console.log('Map size: ' + myMap.size); // 3
+    console.log("Map size: " + myMap.size); // 3
 
     // getting the values
-    let strResult = myMap.get('keyString'); // "value associated with 'a string'"
+    let strResult = myMap.get("keyString"); // "value associated with 'a string'"
     myMap.get(keyObject); // "value associated with 'a string'" because keyString === 'a string'
-    myMap.get(keyFunct)('test'); // "value associated with keyObj"
+    myMap.get(keyFunct)("test"); // "value associated with keyObj"
 
-    myMap.delete('keyString');
+    myMap.delete("keyString");
     myMap.clear();
   }
 
@@ -515,14 +524,14 @@ export class TypesDemos {
 
     var mySet = new Set<any>();
     mySet.add(1);
-    mySet.add('some text');
+    mySet.add("some text");
     var o = { a: 1, b: 2 };
     mySet.add(o);
 
     mySet.has(1); // true
     mySet.has(3); // false, 3 has not been added to the set
     mySet.has(Math.sqrt(25)); // true
-    mySet.has('Some Text'.toLowerCase()); // true
+    mySet.has("Some Text".toLowerCase()); // true
     mySet.has(o); // true
     var size = mySet.size; // 4
 
@@ -542,12 +551,15 @@ export class TypesDemos {
       return a + b;
     }, 100);
 
-    log('Sum with initail of 100', sum);
+    log("Sum with initail of 100", sum);
 
     let totalArrow = Array.from(setNbrs).reduce((a, b) => a + b);
 
-    log('totalArrow', totalArrow);
+    log("totalArrow", totalArrow);
 
-    log('totalArrow 2', Array.from(setNbrs).reduce((a, b) => a + b));
+    log(
+      "totalArrow 2",
+      Array.from(setNbrs).reduce((a, b) => a + b)
+    );
   }
 }
