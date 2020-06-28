@@ -7,9 +7,9 @@ Wir vermitteln die neuesten Skills im Bereich responsive UI Design, auch am Beis
 Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über modernes "Full-Stack-Development"
 
 - VS Code und Github nutzen
-- Node.js verstehen und einsetzen
 - Modernes JavaScript & TypeScript schreiben
-- Bundling & Compiling using Webpack
+- Node.js verstehen und einsetzen
+- Windows Subssystem for Linux 2 (WSL 2) for Developers
 - Verstehen des Reactiv Programmierpatterns mit RxJS
 - Implementieren eines Resposive User Interfaces mit CSS Grid & Flexbox
 - Verwenden von Bootstrap 4
@@ -38,13 +38,6 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Forking, Pull Requests & Git Flow
 - Repo Documentation using Markdown
 
-## Node.js
-
-- Node.js Role in modern Web Development
-- Node Basics & Configuration
-- Package Management using NPM & Yarn
-- Task Automation using NPM- & Gulp Scripts
-
 ## Using modern JavaScript
 
 - History of ECMA Script Standards
@@ -62,11 +55,24 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Objects, Classes, Interfaces, Enums
 - Ensuring Code Quality using TSLint & Prettier
 
-## Packaging & Reusing Code using Webpack & NPM
+## Node Based Development Basics
 
+- Node.js Role in modern Web Development
+- Node Basics & Configuration
+- Package Management using NPM & Yarn
+- Task Automation using NPM- & Gulp Scripts
 - Creating Webpack Bundles
 - Ensuring Browser Compatibility using Polyfills & Shims
 - Creating & Publishing NPM Packages
+
+## Windows Subssystem for Linux 2 (WSL 2) for Developers
+
+- Why WSL 2 / Introduction & Benefits
+- WSL 2 & Docker Desktop Configuration
+- VS Code Extensions that support WSL 2
+- Configuring & Hosting Websites using NGINX
+- Understanding & Building Docker Containers
+- Using Kubernetes on your local Developer Machine
 
 ## Designing & Implementing Api’s & Graphs
 
