@@ -2,7 +2,7 @@
 
 Requires Windows 10 - May 2020 Update or higher. To Update use this [link](https://www.microsoft.com/de-de/software-download/windows10).
 
-![windows-update](_images/windows-update.png)
+![windows-update](../_images/windows-update.png)
 
 Enable the Windows Subsystem for Linux:
 
@@ -28,11 +28,11 @@ wsl --set-default-version 2
 
 Install a Linux Disto from Microsoft Store:
 
-![ubuntu](_images/ubuntu.png)
+![ubuntu](../_images/ubuntu.png)
 
 Set Username & Password:
 
-![user](_images/user.png)
+![user](../_images/user.png)
 
 Set WSL to use your default Disto
 
@@ -41,7 +41,7 @@ wsl -l -v
 wsl --set-version DistroName 2
 ```
 
-![wsl-distro](_images/wsl-distro.png)
+![wsl-distro](../_images/wsl-distro.png)
 
 ## Frameworks & Runtimes
 
