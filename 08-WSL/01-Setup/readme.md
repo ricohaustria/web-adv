@@ -45,6 +45,8 @@ wsl --set-version DistroName 2
 
 ## Frameworks & Runtimes
 
+[Introduction to Bash Scripting](https://www.taniarascia.com/how-to-create-and-use-bash-scripts/)
+
 ### Node
 
 Install Node Version Manager on WSL
@@ -56,17 +58,22 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 ### .NET Core 
 
+Register Packages:
+
 ```
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-bionic-prod bionic main" > /etc/apt/sources.list.d/dotnetdev.list'
 ```
+Install .NET Core:
 
 ```
 sudo apt-get install apt-transport-https
 sudo apt-get update
 sudo apt-get install dotnet-sdk-3.1
 ```
+
+> Note: You can also execute `sudo ./setup-netcore.sh`
 
 ## Extensions
 
