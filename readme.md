@@ -67,15 +67,6 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Ensuring Browser Compatibility using Polyfills & Shims
 - Creating & Publishing NPM Packages
 
-## Windows Subssystem for Linux 2 (WSL 2) for Developers
-
-- Why WSL 2 / Introduction & Benefits
-- WSL 2 & Docker Desktop Configuration
-- VS Code Extensions that support WSL 2
-- Configuring & Hosting Websites using NGINX
-- Understanding & Building Docker Containers
-- Using Kubernetes on your local Developer Machine
-
 ## Designing & Implementing Api’s & Graphs
 
 - Rest Api’s Overview
@@ -97,6 +88,15 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Understanding & and sing Flexbox & CSS Grid
 - Web Fonts & Icons
 - Introduction to Bootstrap
+
+## Windows Subssystem for Linux 2 (WSL 2) for Developers
+
+- Why WSL 2 / Introduction & Benefits
+- VS Code Extensions that support WSL 2
+- Configuring & Hosting Websites using NGINX
+- WSL 2 & Docker Desktop Configuration
+- Understanding & Building Docker Containers
+- Using Kubernetes on your local Developer Machine
 
 ## Overview current JavaScript Frameworks
 
