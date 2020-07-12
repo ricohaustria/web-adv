@@ -29,28 +29,6 @@
   },
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
-  "todohighlight.isCaseSensitive": false,
-  "todohighlight.keywords": [
-    {
-      "text": "discuss:",
-      "color": "white",
-      "backgroundColor": "#006400",
-      "overviewRulerColor": "grey"
-    },
-    {
-      "text": "note:",
-      "color": "#ff0000",
-      "backgroundColor": "yellow",
-      "overviewRulerColor": "grey"
-    },
-    {
-      "text": "todo:",
-      "color": "red",
-      "border": "1px solid red",
-      "borderRadius": "2px",
-      "backgroundColor": "rgba(0,0,0,.2)"
-    }
-  ],
   "diffEditor.ignoreTrimWhitespace": false,
   "git.confirmSync": false,
   "git-graph.fetchAvatars": true,
