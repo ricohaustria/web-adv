@@ -4,6 +4,7 @@ tr {
 
 table {
   margin: 0 auto;
+  width: 60%;
 
   tr :hover {
     text-decoration: underline;
@@ -12,6 +13,7 @@ table {
 
 .addRow {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin: 1rem auto;
   background: #c3002f;
@@ -21,4 +23,10 @@ table {
   a {
     color: white;
   }
+}
+
+.content{  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

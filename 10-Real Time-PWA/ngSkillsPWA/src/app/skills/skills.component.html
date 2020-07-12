@@ -4,17 +4,15 @@
     <button mat-raised-button (click)="addSkill()">Add Skill</button>
   </div>
   <div>Here are the skills</div>
-  <div>
+  <div class="content">
     <table>
       <thead>
         <tr>
-          <th>ID</th>
           <th>Name</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let s of skills" (click)="removeSkill(s)">
-          <td>{{ s.id }}</td>
           <td>{{ s.title }}</td>
         </tr>
       </tbody>

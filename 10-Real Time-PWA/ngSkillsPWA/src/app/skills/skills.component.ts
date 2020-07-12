@@ -1,11 +1,11 @@
-import { Component, OnInit } from "@angular/core";
-import { SkillsService } from "../skills.service";
-import { Skill } from "../model";
+import { Component, OnInit } from '@angular/core';
+import { SkillsService } from '../skills.service';
+import { Skill } from '../skills.model';
 
 @Component({
-  selector: "app-skills",
-  templateUrl: "./skills.component.html",
-  styleUrls: ["./skills.component.scss"]
+  selector: 'app-skills',
+  templateUrl: './skills.component.html',
+  styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent implements OnInit {
   skills: Skill[];
@@ -22,7 +22,7 @@ export class SkillsComponent implements OnInit {
   }
 
   addSkill() {
-    let sk: Skill = { id: this.skills.length + 1, name: this.skillToAdd };
+    const sk: Skill = { id: this.skills.length + 1, title: this.skillToAdd };
     this.skills.push(sk);
   }
 }
