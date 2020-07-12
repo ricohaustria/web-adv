@@ -13,13 +13,13 @@ Got to folder `'00 VS Code Settings'`
 #### Dump to current Folder - dumpExtensions.ps1
 
 ```
-code --list-extensions > ".\extensions.txt"
+code --list-extensions > ".\web-extensions.txt"
 ```
 
 #### Import from current Folder - importExtensions.ps1
 
 ```
-foreach($line in Get-Content ".\extensions.txt") {
+foreach($line in Get-Content ".\web-extensions.txt") {
     code --install-extension $line
 }
 ```
