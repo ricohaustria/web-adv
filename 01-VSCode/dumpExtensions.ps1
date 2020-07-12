@@ -1,2 +1,2 @@
-code --list-extensions > ".\extensions.txt"
+code --list-extensions > ".\web-extensions.txt"
 Write-Host "Extensions dumped"

@@ -108,12 +108,7 @@ Copy settings.json & keybindings.json to `%APPDATA%\Code\User\settings.json`
       "shell": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
       "label": "PowerShell"
     }
-  ],
-  "vs-kubernetes": {
-    "vs-kubernetes.minikube-path.windows": "C:\\Users\\AlexanderPajer\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
-    "vs-kubernetes.helm-path.windows": "C:\\Users\\AlexanderPajer\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
-    "vs-kubernetes.draft-path.windows": "C:\\Users\\AlexanderPajer\\.vs-kubernetes\\tools\\draft\\windows-amd64\\draft.exe"
-  },
+  ],  
   "prettier.singleQuote": true,
   "javascript.implicitProjectConfig.experimentalDecorators": true
 }
