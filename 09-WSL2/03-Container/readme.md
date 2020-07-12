@@ -41,4 +41,6 @@ docker run hello-world
 ## Using Containers
 
 - Skills Api from Module 06
+- Simple HTML Sample
+- Angular App
 

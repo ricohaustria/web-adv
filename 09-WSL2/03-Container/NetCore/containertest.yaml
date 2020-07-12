@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: containertest
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: containertest
+  template:
+    metadata:
+      labels:
+        app: containertest
+    spec:
+      containers:
+        - name: containertest
+          image: arambazamba/containertest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+          resources:
+            limits:
+              cpu: "500m"
+              memory: "128Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: containertest
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 8081
+      targetPort: 80
+  selector:
+    app: containertest
+---
+

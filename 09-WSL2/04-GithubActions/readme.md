@@ -6,4 +6,3 @@
 
 [Github Actions](https://github.com/actions)
 
-> Note: Theory & Practical Samples will be shown in `09-WSL2` chapater as it makes more sense to explain a meaningfull example

@@ -4,7 +4,7 @@ In dem Seminar „Advanced Web Technologies“ lernen Sie aktuelle Werkzeuge fü
 Bei den eingesetzten Sprachen, JavaScript und TypeScript, legen wir Wert darauf, modernen Syntax zu verwenden und vermitteln aktuelle Konzepte wir Reactive Programming, sowie modulares, und funktionales Programmieren.
 Wir vermitteln die neuesten Skills im Bereich responsive UI Design, auch am Beispiel von Bootstrap 4, und stellen aktuelle JavaScript Frameworks wie Angular, Vue.js und React vor. Wir behandeln die Themen Real Time Applications, Offline Verfügbarkeit und Nutzung von HTML APIs wie Gelolocation, Gerätezugriff.
 
-Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über modernes "Full-Stack-Development"
+Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über modernes "Full-Stack-Web-Development"
 
 - Visual Studio Code effektiv einsetzen
 - Source Control mit Git & Github
