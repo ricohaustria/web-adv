@@ -8,15 +8,13 @@
 
 ## Manage VS Code Extensions & Settings using PowerShell
 
-Got to folder `'00 VS Code Settings'`
-
-#### Dump to current Folder - dumpExtensions.ps1
+### Dump to current Folder - dumpExtensions.ps1
 
 ```
 code --list-extensions > ".\web-extensions.txt"
 ```
 
-#### Import from current Folder - importExtensions.ps1
+### Import from current Folder - importExtensions.ps1
 
 ```
 foreach($line in Get-Content ".\web-extensions.txt") {
@@ -24,11 +22,11 @@ foreach($line in Get-Content ".\web-extensions.txt") {
 }
 ```
 
-## Recommended VS Code Settings
+### Recommended VS Code Settings
 
 Copy settings.json & keybindings.json to `%APPDATA%\Code\User\settings.json`
 
-### settings.json
+`settings.json`:
 
 ```
 {
@@ -70,7 +68,7 @@ Copy settings.json & keybindings.json to `%APPDATA%\Code\User\settings.json`
 }
 ```
 
-### keybindings.json
+`keybindings.json`:
 
 ```
 [
