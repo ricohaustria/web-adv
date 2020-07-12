@@ -6,7 +6,8 @@ Wir vermitteln die neuesten Skills im Bereich responsive UI Design, auch am Beis
 
 Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über modernes "Full-Stack-Development"
 
-- VS Code und Github nutzen
+- Visual Studio Code effektiv einsetzen
+- Source Control mit Git & Github
 - Modernes JavaScript & TypeScript schreiben
 - Node.js verstehen und einsetzen
 - Windows Subssystem for Linux 2 (WSL 2) for Developers
@@ -89,15 +90,6 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Web Fonts & Icons
 - Introduction to Bootstrap
 
-## Windows Subssystem for Linux 2 (WSL 2) for Developers
-
-- Why WSL 2 / Introduction & Benefits
-- VS Code Extensions that support WSL 2
-- Configuring & Hosting Websites using NGINX
-- WSL 2 & Docker Desktop Configuration
-- Understanding & Building Docker Containers
-- Using Kubernetes on your local Developer Machine
-
 ## Overview current JavaScript Frameworks
 
 - Angular Introduction
@@ -106,6 +98,15 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - React – Hello World
 - Vue.js Introduction
 - Vue.js –Hello World
+
+## Windows Subssystem for Linux 2 (WSL 2) for Developers
+
+- Why WSL 2 / Introduction & Benefits
+- VS Code Extensions that support WSL 2
+- Configuring & Hosting Websites using NGINX
+- WSL 2 & Docker Desktop Configuration
+- Understanding & Building Docker Containers
+- Using Kubernetes on your local Developer Machine
 
 ## Understanding Reactive Extensions for JavaScript – RxJS
 
