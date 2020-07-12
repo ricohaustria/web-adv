@@ -1,4 +1,4 @@
-# Github Workflows & Actions
+# Github Flow & Actions
 
 [Github Flow](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/github-flow)
 
