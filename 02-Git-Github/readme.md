@@ -1,5 +1,7 @@
 # Getting Started with Source Control
 
+[GitHub Documentation](https://docs.github.com/en)
+
 [Git Bash Download](https://git-scm.com/downloads)
 
 [Git Extensions for Windows](https://sourceforge.net/projects/gitextensions/)
