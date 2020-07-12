@@ -74,7 +74,3 @@ sudo apt-get install dotnet-sdk-3.1
 ```
 
 > Note: You can also execute `sudo ./setup-netcore.sh`
-
-## Extensions
-
-[Remote Development Pack - VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
