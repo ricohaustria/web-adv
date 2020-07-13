@@ -2,6 +2,8 @@
 
 [Node.js](https://nodejs.org)
 
+[NPM.js - Node Package Repository](https://www.npmjs.com/)
+
 [NVM for Windows](https://github.com/coreybutler/nvm-windows)
 
 [Webpack](https://webpack.js.org/)
