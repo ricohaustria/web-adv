@@ -18,7 +18,7 @@ Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über
 - Kennen von aktuellen JavaScript Frameworks: Angular, Vue.js, React
 - Implementieren von Real Time Anwendungen
 - Unterstützen von Offlineverfügbarkeit
-- HTML 5 APi’s & Device Access
+- HTML 5 APi’s, Device Access & Web Mobile Frameworks
 - Verwenden von Tokenbasierender Authentifizierung
 - Integration Sozialer Netzwerke und Dienste: Facebook & Paypal
 
@@ -125,12 +125,13 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - What are Progressive Web Apps (PWA)
 - Progressive Web Apps Hello World
 
-## HTML 5 APi’s & Device Access
+## HTML 5 APi’s, Device Access & Web Mobile Frameworks
 
 - Overview Device Access & HTML Apis
-- Geolocation & Media Capture
-- Device Orientation Events
+- Geolocation & Media Capture, - Device Orientation Events
 - Other APIs (Battery Status, Vibration, Bluetooth ...)
+- Cordova
+- Overview Web Hybrid Mobile Frameworks
 
 ## Introduction to Token Based Authentication
 
