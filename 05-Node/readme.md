@@ -4,7 +4,7 @@
 
 [NPM.js - Node Package Repository](https://www.npmjs.com/)
 
-[NVM for Windows](https://github.com/coreybutler/nvm-windows)
+[Node Version Manager (NVM) for Windows](https://github.com/coreybutler/nvm-windows)
 
 [Yeoman](https://yeoman.io/)
 
