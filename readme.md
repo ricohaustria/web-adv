@@ -139,7 +139,6 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Using Social Authentication
 
 ## Consuming Common Social Services
-
-- Facebook Introduction
+****
 - Consuming Facebook Graph
 - Using the Paypal SDK
