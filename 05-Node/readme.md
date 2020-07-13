@@ -6,10 +6,6 @@
 
 [NVM for Windows](https://github.com/coreybutler/nvm-windows)
 
-[Webpack](https://webpack.js.org/)
-
-[Gulp](https://gulpjs.com/)
-
 [Yeoman](https://yeoman.io/)
 
 ## Using Node as a Dev Tool
@@ -26,7 +22,9 @@ npm i -g webpack webpack-cli gulp gulp-cli
 
 ![audit](_images/npm-audit.png)
 
-## Execute Sample Tasks
+## Gulp
+
+[Gulp](https://gulpjs.com/)
 
 Run a gulp task: 
 
@@ -34,6 +32,11 @@ Run a gulp task:
 gulp babel
 gulp compile-sass
 ```
+
+## Webpack
+
+[Webpack](https://webpack.js.org/)
+
 Run webpack: 
 
 ```
