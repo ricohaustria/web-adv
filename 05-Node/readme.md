@@ -1,4 +1,16 @@
-# Using Node as a Dev Tool
+# Node Based Development
+
+[Node.js](https://nodejs.org)
+
+[NVM for Windows](https://github.com/coreybutler/nvm-windows)
+
+[Webpack](https://webpack.js.org/)
+
+[Gulp](https://gulpjs.com/)
+
+[Yeoman](https://yeoman.io/)
+
+## Using Node as a Dev Tool
 
 Installation
 
@@ -26,18 +38,3 @@ Run webpack:
 webpack
 ```
 > Note: Uses `webpack.config.js` by default
-
-
-# Links & Ressources
-
-[Node.js](https://nodejs.org)
-
-[NVM for Windows](https://github.com/coreybutler/nvm-windows)
-
-[Typescript](https://www.typescriptlang.org/)
-
-[Webpack](https://webpack.js.org/)
-
-[Gulp](https://gulpjs.com/)
-
-[Yeoman](https://yeoman.io/)
