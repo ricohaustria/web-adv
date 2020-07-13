@@ -123,7 +123,6 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Understanding Offline First
 - Local Storage, Indexed DB & Web SQL
 - What are Progressive Web Apps (PWA)
-- Progressive Web Apps Hello World
 
 ## HTML 5 APi’s, Device Access & Web Mobile Frameworks
 
