@@ -128,9 +128,8 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 ## HTML 5 APi’s, Device Access & Web Mobile Frameworks
 
 - Overview Device Access & HTML Apis
-- Geolocation & Media Capture, - Device Orientation Events
-- Other APIs (Battery Status, Vibration, Bluetooth ...)
-- Cordova
+- Geolocation & Media Capture, Device Orientation Events
+- Apache Cordova
 - Overview Web Hybrid Mobile Frameworks
 
 ## Introduction to Token Based Authentication
