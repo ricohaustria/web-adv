@@ -22,7 +22,7 @@ npm i -g webpack webpack-cli gulp gulp-cli
 
 ![audit](_images/npm-audit.png)
 
-## Gulp
+### Gulp
 
 [Gulp](https://gulpjs.com/)
 
@@ -33,7 +33,7 @@ gulp babel
 gulp compile-sass
 ```
 
-## Webpack
+### Webpack
 
 [Webpack](https://webpack.js.org/)
 
