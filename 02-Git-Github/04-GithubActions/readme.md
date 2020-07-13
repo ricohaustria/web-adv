@@ -6,4 +6,4 @@
 
 [Github Actions](https://github.com/actions)
 
-> Note: Theory & Practical Samples will be shown in [09-WSL/04-GithubActions](/09-WSL/04-GithubActions/) chapater as it makes more sense to explain a meaningfull example
+> Note: Theory & Practical Samples will be shown in [09-WSL2/04-GithubActions](../../09-WSL2/04-GithubActions/) chapater as it makes more sense to explain a meaningfull example
