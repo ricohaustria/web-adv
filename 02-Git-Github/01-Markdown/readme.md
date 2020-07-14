@@ -1,5 +1,7 @@
 # Markdown
 
+[Markdown Shortcuts](https://www.markdownguide.org/cheat-sheet/)
+
 ## Basic Syntax
 
 ### Formatting
