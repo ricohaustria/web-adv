@@ -33,3 +33,9 @@ wt -d .
 [Remote Development Pack - VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
 [Remote - WSL - VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+
+## Tutorials
+
+[Remote Development over SSH](https://code.visualstudio.com/docs/remote/ssh-tutorial)
+
+[Remote development in Containers](https://code.visualstudio.com/docs/remote/containers-tutorial)
