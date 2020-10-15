@@ -34,7 +34,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 
 ## Introduction to Git & GitHub
 
-- Git's Role in modern CI / CD
+- Git's Role in modern Development & DevOps
 - Repo Documentation using Markdown
 - Using GitHub – Repos, Basic Commands, Branching & History
 - Using GitHub CLI
