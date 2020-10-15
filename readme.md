@@ -37,6 +37,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Git's Role in modern CI / CD
 - Repo Documentation using Markdown
 - Using GitHub – Repos, Basic Commands, Branching & History
+- Using GitHub CLI
 - Creating Issues and Linking them to Code 
 - Forking, Pull Requests & Git Flow
 - Introduction to Github Actions
