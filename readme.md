@@ -13,7 +13,7 @@ Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über
 - Windows Subssystem for Linux 2 (WSL 2) for Developers
 - Verstehen des Reactiv Programmierpatterns mit RxJS
 - Implementieren eines Resposive User Interfaces mit CSS Grid & Flexbox
-- Verwenden von Bootstrap 4
+- Verwenden von Bootstrap 5
 - Designing & Implementing Api’s & Graphs
 - Kennen von aktuellen JavaScript Frameworks: Angular, Vue.js, React
 - Implementieren von Real Time Anwendungen
@@ -89,7 +89,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Style Isolation using Shadow Dom & Web Components
 - Understanding & and sing Flexbox & CSS Grid
 - Web Fonts & Icons
-- Introduction to Bootstrap
+- Introduction to Bootstrap 5
 
 ## Single Page Application Frameworks
 
