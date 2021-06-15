@@ -91,14 +91,14 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Web Fonts & Icons
 - Introduction to Bootstrap
 
-## Overview current JavaScript Frameworks
+## Single Page Application Frameworks
 
 - Angular Introduction
 - Angular - Hello World
 - React Introduction
 - React – Hello World
-- Vue.js Introduction
-- Vue.js –Hello World
+- Blazor Introduction
+- Blazor - Hello World
 
 ## Windows Subssystem for Linux 2 (WSL 2) for Developers
 
