@@ -10,7 +10,7 @@ Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über
 - Source Control mit Git & Github
 - Modernes JavaScript & TypeScript schreiben
 - Node.js verstehen und einsetzen
-- Windows Subssystem for Linux 2 (WSL 2) for Developers
+- Windows Subssystem for Linux 2 (WSL 2) for Developers & Container Grundlagen
 - Implementieren eines Resposive User Interfaces mit CSS Grid & Flexbox
 - Verwenden von Bootstrap 5
 - Designing & Implementing Api’s & Graphs
