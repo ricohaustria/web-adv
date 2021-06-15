@@ -11,11 +11,10 @@ Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über
 - Modernes JavaScript & TypeScript schreiben
 - Node.js verstehen und einsetzen
 - Windows Subssystem for Linux 2 (WSL 2) for Developers
-- Verstehen des Reactiv Programmierpatterns mit RxJS
 - Implementieren eines Resposive User Interfaces mit CSS Grid & Flexbox
 - Verwenden von Bootstrap 5
 - Designing & Implementing Api’s & Graphs
-- Kennen von aktuellen JavaScript Frameworks: Angular, Vue.js, React
+- Kennen von aktuellen Single Page Aplication Frameworks: Angular, React, Blazor
 - Implementieren von Real Time Anwendungen
 - Unterstützen von Offlineverfügbarkeit
 - HTML 5 APi’s, Device Access & Web Mobile Frameworks
