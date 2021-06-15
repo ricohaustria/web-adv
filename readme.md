@@ -112,19 +112,18 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Implementing Real Time Apps using SignalR
 - Understanding Offline First
 - Local Storage, Indexed DB & Web SQL
-- What are Progressive Web Apps (PWA)
+- Progressive Web Apps (PWA)
 
-## HTML 5 APi’s, Device Access & Web Mobile Frameworks
+## HTML 5 APi’s, Device Access
 
 - Overview Device Access & HTML Apis
 - Geolocation & Media Capture, Device Orientation Events
 - Apache Cordova
-- Overview Web Hybrid Mobile Frameworks
 
 ## Introduction to Token Based Authentication
 
-- Classic vs Token Based Authentication
 - OpenID Connect, JSON Web Tokens (Jwt) & oAuth
+- Implementing Token based Authentication
 - Using Social Authentication
 
 ## Consuming Common Social Services
