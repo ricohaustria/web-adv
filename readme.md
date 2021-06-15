@@ -15,9 +15,8 @@ Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über
 - Verwenden von Bootstrap 5
 - Designing & Implementing Api’s mit .Net Core, Node.js & Graph QL
 - Kennen von aktuellen Single Page Aplication Frameworks: Angular, React, Blazor
-- Implementieren von Real Time Anwendungen
-- Unterstützen von Offlineverfügbarkeit
-- HTML 5 APi’s, Device Access & Web Mobile Frameworks
+- Implementieren von Real Time Anwendungen & Offlineverfügbarkeit
+- HTML 5 APi’s, Device Access
 - Verwenden von Tokenbasierender Authentifizierung
 - Integration Sozialer Netzwerke und Dienste: Facebook & Paypal
 
