@@ -13,7 +13,7 @@ Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über
 - Windows Subssystem for Linux 2 (WSL 2) for Developers & Container Grundlagen
 - Implementieren eines Resposive User Interfaces mit CSS Grid & Flexbox
 - Verwenden von Bootstrap 5
-- Designing & Implementing Api’s & Graphs
+- Designing & Implementing Api’s mit .Net Core, Node.js & Graph QL
 - Kennen von aktuellen Single Page Aplication Frameworks: Angular, React, Blazor
 - Implementieren von Real Time Anwendungen
 - Unterstützen von Offlineverfügbarkeit
@@ -29,17 +29,15 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 
 - Visual Studio Code Essentials (Settings, Keybinding, ...)
 - Useful Extensions Visual Studio Code
-- Using Online Editors: Stackblitz
+- Using Online Editors: Stackblitz, GitHub Codespaces
 
 ## Introduction to Git & GitHub
 
 - Git's Role in modern Development & DevOps
 - Repo Documentation using Markdown
 - Using GitHub – Repos, Basic Commands, Branching & History
-- Using GitHub CLI
 - Creating Issues and Linking them to Code 
 - Forking, Pull Requests & Git Flow
-- Introduction to Github Actions
 
 ## Using modern JavaScript
 
@@ -73,7 +71,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Rest Api’s Overview
 - Client Side vs Server Side Data Models
 - Using Swagger to Design / Document the Api
-- Implementing Api’s using Common Frameworks (Node.js, .NET Core, NestJS)
+- Implementing Api’s using Common Frameworks (Node.js, .NET Core)
 - Implementing Graphs using GraphQL & Appllo Server
 
 ## Implementing a Responsive User Interface
@@ -106,14 +104,6 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Configuring & Hosting Websites using NGINX
 - WSL 2 & Docker Desktop Configuration
 - Understanding & Building Docker Containers
-- Using Kubernetes on your local Developer Machine
-
-## Understanding Reactive Extensions for JavaScript – RxJS
-
-- Understanding & using the Benefits of Reactive Programming
-- Functional Programming & Immutability
-- Observer, Observable, Subject
-- Observable Operators
 
 ## Introduction to Real Time- & Offline Apps
 
