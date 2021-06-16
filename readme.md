@@ -10,11 +10,11 @@ Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über
 - Source Control mit Git & Github
 - Modernes JavaScript & TypeScript schreiben
 - Node.js verstehen und einsetzen
-- Windows Subssystem for Linux 2 (WSL 2) for Developers & Container Grundlagen
 - Implementieren eines Resposive User Interfaces mit CSS Grid & Flexbox
 - Verwenden von Bootstrap 5
 - Designing & Implementing Api’s mit .Net Core, Node.js & Graph QL
 - Kennen von aktuellen Single Page Aplication Frameworks: Angular, React, Blazor
+- Entwickeln in Containern mit Windows Subsystem for Linux 2 (WSL 2)
 - Implementieren von Real Time Anwendungen & Offlineverfügbarkeit
 - HTML 5 APi’s, Device Access
 - Verwenden von Tokenbasierender Authentifizierung
@@ -38,7 +38,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Creating Issues and Linking them to Code 
 - Forking, Pull Requests & Git Flow
 
-## Using modern JavaScript
+## Wirting modern JavaScript
 
 - History of ECMA Script Standards
 - ES6 Array Helpers & Utility Functions
@@ -62,30 +62,26 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Package Management using NPM & Yarn
 - Task Automation using NPM- & Gulp Scripts
 - Creating Webpack Bundles
-- Ensuring Browser Compatibility using Polyfills & Shims
 - Creating & Publishing NPM Packages
 
 ## Designing & Implementing Api’s & Graphs
 
 - Rest Api’s Overview
-- Client Side vs Server Side Data Models
+- Client Side & Server Side Data Models
 - Using Swagger to Design / Document the Api
 - Implementing Api’s using Common Frameworks (Node.js, .NET Core)
 - Implementing Graphs using GraphQL & Appllo Server
 
 ## Implementing a Responsive User Interface
 
-- Using Emmet
-- Understanding Mobile First
+- Effective HTML using Emmet
 - Understanding Media Queries and Responsive Breakpoints
 - Units: px, % versus rem, em, vh
-- Effective HTML using Emmet
 - Syntactically Awesome Style Sheets Basics (Sass)
-- Sass Mixins, Partials & Imports
 - Style Isolation using Shadow Dom & Web Components
-- Understanding & and sing Flexbox & CSS Grid
-- Web Fonts & Icons
+- Understanding & and using Flexbox & CSS Grid
 - Introduction to Bootstrap 5
+- Web Fonts & Icons
 
 ## Single Page Application Frameworks
 
@@ -96,13 +92,12 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Blazor Introduction
 - Blazor - Hello World
 
-## Windows Subssystem for Linux 2 (WSL 2) for Developers
+## Entwickeln in Containern mit Windows Subsystem for Linux 2 (WSL 2)
 
-- Why WSL 2 / Introduction & Benefits
-- VS Code Extensions that support WSL 2
-- Configuring & Hosting Websites using NGINX
+- Ddocker Basics
 - WSL 2 & Docker Desktop Configuration
 - Understanding & Building Docker Containers
+- Configuring & Hosting Websites using NGINX
 
 ## Introduction to Real Time- & Offline Apps
 
@@ -111,21 +106,13 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Implementing Real Time Apps using SignalR
 - Understanding Offline First
 - Local Storage, Indexed DB & Web SQL
-- Progressive Web Apps (PWA)
-
-## HTML 5 APi’s, Device Access
-
+- Progressive Web Apps (PWA) Frameworks
 - Overview Device Access & HTML Apis
-- Geolocation & Media Capture, Device Orientation Events
-- Apache Cordova
 
-## Introduction to Token Based Authentication
+## Token Based Authentication & Social
 
 - OpenID Connect, JSON Web Tokens (Jwt) & oAuth
-- Implementing Token based Authentication
+- Implementing Token based Authentication using Azure AD 
 - Using Social Authentication
-
-## Consuming Common Social Services
-
 - Consuming Facebook Graph
 - Using the Paypal SDK
