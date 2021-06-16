@@ -86,18 +86,18 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 ## Single Page Application Frameworks
 
 - Angular Introduction
-- Angular - Hello World
+- Angular Components, Services & Dependency Injecction
 - React Introduction
-- React – Hello World
+- React Hooks
 - Blazor Introduction
-- Blazor - Hello World
+- Blazor Server & Blazor Web Assembly
 
 ## Entwickeln in Containern mit Windows Subsystem for Linux 2 (WSL 2)
 
 - Ddocker Basics
 - WSL 2 & Docker Desktop Configuration
 - Understanding & Building Docker Containers
-- Configuring & Hosting Websites using NGINX
+- Configuring & Hosting Apps using NGINX
 
 ## Introduction to Real Time- & Offline Apps
 
