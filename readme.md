@@ -25,7 +25,8 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 ## Using VS Code
 
 - Visual Studio Code Essentials (Settings, Keybinding, ...)
-- Useful Extensions Visual Studio Code
+- Organizing Monorepos (multible projectes) using VS Code Workspaces
+- Useful Extensions for Visual Studio Code
 - Using Online Editors: Stackblitz, GitHub Codespaces
 
 ## Introduction to Git & GitHub
@@ -36,7 +37,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Creating Issues and Linking them to Code 
 - Forking, Pull Requests & Git Flow
 
-## Wirting modern JavaScript
+## Writing modern JavaScript
 
 - History of ECMA Script Standards
 - ES6 Array Helpers & Utility Functions
