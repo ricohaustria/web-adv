@@ -87,7 +87,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Angular Introduction
 - Angular Components, Services & Dependency Injecction
 - React Introduction
-- Using React Hooks
+- Using React Functional Components & Hooks
 - Blazor Introduction
 - Blazor Server & Blazor Web Assembly
 
