@@ -1,5 +1,15 @@
 # Git / Github Essentials
 
+## Links
+
+[Git Bash Download](https://git-scm.com/downloads)
+
+[Git Extensions for Windows](https://sourceforge.net/projects/gitextensions/)
+
+[Git Graph VS Code](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+
+[Git History Diff](https://marketplace.visualstudio.com/items?itemName=huizhou.githd)
+
 ## Configuration
 
 Set User and E-Mail
@@ -70,41 +80,46 @@ Checkout tag: `git checkout 2.0.1`
 
 Add a `.gitignore` file to the root of your project. A valid `.gitignore` file can be generated at https://www.gitignore.io/
 
-## Refresh from Upstream
+## Forking Workflow - Getting Updates for Class Demos
 
-> Note: You can use this guide to refresh changes I made during the week to your forked repo
+![forking-wf](_images/forking-workflow.jpg)
 
-Open Git Bash.
+Original Repo could be: `https://github.com/ARambazamba/AZ-204` where `ARambazamba` is the `original-owner-github-username` and `AZ-204` is the `reponame`
+
+### Listing the current Remotes
 
 List the current configured remote repository for your fork.
 
 ```
 git remote -v
-> origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
-> origin  https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
+> origin  https://github.com/your-github-username/reponame.git (fetch)
+> origin  https://github.com/your-github-username/reponame.git (push)
 ```
 
 Specify a new remote upstream repository that will be synced with the fork.
 
+### Adding the Repo of the original owner as Upstream
+
 ```
-git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+git remote add upstream https://github.com/original-owner-github-username/reponame.git
 ```
 
 Verify the new upstream repository you've specified for your fork.
 
 ```
 git remote -v
-> origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
-> origin    https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
-> upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
-> upstream  https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
+> origin    https://github.com/your-github-username/reponame.git (fetch)
+> origin    https://github.com/your-github-username/reponame.git (push)
+> upstream  https://github.com/original-owner-github-username/reponame.git (fetch)
+> upstream  https://github.com/original-owner-github-username/reponame.git (push)
 ```
+
+### Getting Updates
 
 Fetch from Upstream:
 
 ```
  git fetch upstream
- git merge upstream/master
- git push origin master
+ git merge upstream/main
+ git push origin main
 ```
-

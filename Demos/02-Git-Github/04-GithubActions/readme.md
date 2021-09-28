@@ -1,9 +1,18 @@
-# Github Flow & Actions
+# GitHub Flow & Actions
 
-[Github Flow](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/github-flow)
+[GitHub Actions Documentation](https://docs.github.com/en/actions)
 
-[Github Actions Documentation](https://docs.github.com/en/actions)
+[GitHub Actions](https://github.com/actions)
 
-[Github Actions](https://github.com/actions)
+## Demos
 
-> Note: Theory & Practical Samples will be shown in [09-WSL2 > 04-GithubActions](../../09-WSL2/04-GithubActions/) module as it makes more sense to explain a meaningfull example
+Navigate to this repo [https://github.com/arambazamba/actions-api](https://github.com/arambazamba/actions-api)
+
+- Explain .NET Core Api in short 
+- Explain `.github/workflows/main.yml` and execute it
+- Show api-pkg
+
+    ![action](_images/action.png)
+
+- Show [GitHub Actions Marketplace](https://github.com/marketplace)
+- Give Overview over [Azure Actions](https://github.com/marketplace?category=deployment&query=azure+)
