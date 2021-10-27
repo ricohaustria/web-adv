@@ -91,7 +91,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Blazor Introduction
 - Blazor Server & Blazor Web Assembly
 
-## Running & Developing Web Apps in Containers with Windows Subsystem for Linux 2 (WSL 2)
+## Running & Developing Web Apps in Containers with Windows Subsystem for Linux 2
 
 - WSL Introduction & Setup
 - Benefits of using WSL
