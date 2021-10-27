@@ -109,7 +109,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Progressive Web Apps (PWA) Frameworks
 - Overview Device Access & HTML Apis
 
-## Token Based Authentication & Social
+## Token Based Authentication, Social and Payment
 
 - OpenID Connect, JSON Web Tokens (Jwt) & oAuth
 - Implementing Token based Authentication using Azure AD 
