@@ -36,6 +36,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Using GitHub – Repos, Basic Commands, Branching & History
 - Creating Issues and Linking them to Code 
 - Forking, Pull Requests & Git Flow
+- Continous Integration and Deployment using Github Actions
 
 ## Writing Object Oriented JavaScript 
 
@@ -93,7 +94,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Blazor Introduction
 - Blazor Server & Blazor Web Assembly
 
-## Running & Developing Web Apps in Containers with Windows Subsystem for Linux 2
+## Developing Containerized Web Apps with Windows Subsystem for Linux 2
 
 - WSL Introduction & Setup
 - Benefits of using WSL
