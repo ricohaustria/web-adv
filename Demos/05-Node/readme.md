@@ -8,38 +8,6 @@
 
 [Yeoman](https://yeoman.io/)
 
-## Using Node as a Dev Tool
+## Labs
 
-Installation
-
-```
-npm i -g webpack webpack-cli gulp gulp-cli
-```
-
-[npm CLI Documentation](https://docs.npmjs.com/cli-documentation/)
-
-[npm audit](https://docs.npmjs.com/cli/audit.html)
-
-![audit](_images/npm-audit.png)
-
-### Gulp
-
-[Gulp](https://gulpjs.com/)
-
-Run a gulp task: 
-
-```
-gulp babel
-gulp compile-sass
-```
-
-### Webpack
-
-[Webpack](https://webpack.js.org/)
-
-Run webpack: 
-
-```
-webpack
-```
-> Note: Uses `webpack.config.js` by default
+[Build JavaScript applications with Node.js](https://docs.microsoft.com/en-us/learn/paths/build-javascript-applications-nodejs/)
