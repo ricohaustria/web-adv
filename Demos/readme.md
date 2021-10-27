@@ -18,7 +18,7 @@ Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über
 - Verwenden von Tokenbasierender Authentifizierung
 - Integration Sozialer Netzwerke und Dienste: Facebook & Paypal
 
-Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen erarbeitet. Am Ende jedes Tages gibt es ca. 2 Std „Lab of the day“ mit Aufgabenstellung, dazugehöriger Lösung und der Möglichkeit, diese zu diskutieren. Alle Beispiele werden über Github verteilt – als Editor setzen wir Visual Studio Code ein. Wir verwenden Branches, um schnell, und vor Allem übersichtlich zwischen den verschiedenen Entwicklungsstadien wechseln zu können.
+Neue Themengebiete werden anhand von Folien, Demos und Beispielen erarbeitet. Nach jedem Module werden den Teilnehmern eine Auswahl von freien Übungen mit Lösung oder Alternativen Self Learning Labs zur Vertiefung angeboten.
 
 # Inhalte
 
