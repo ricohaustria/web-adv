@@ -4,6 +4,6 @@
 
 [Module Formats](https://webassembly.studio/)
 
-[Web Assembly](https://developer.mozilla.org/en-US/docs/WebAssembly)
+## Labs
 
-[Web Assembly Studio](https://webassembly.studio/)
+[Build JavaScript applications using TypeScript](https://docs.microsoft.com/en-us/learn/paths/build-javascript-applications-typescript/)

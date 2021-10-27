@@ -18,6 +18,8 @@
 
 [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 
-## Learning Labs:
+## Labs
+
+[Communicate effectively on GitHub by using Markdown](https://docs.microsoft.com/en-us/learn/modules/communicate-using-markdown/)
 
 [Learning Path - Introduction to version control with Git](https://docs.microsoft.com/en-us/learn/paths/intro-to-vc-git/)
