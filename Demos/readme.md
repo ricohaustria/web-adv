@@ -99,7 +99,7 @@ Neue Themengebiete werden anhand von Folien, Demos und Beispielen erarbeitet. Na
 
 - WSL Introduction & Setup
 - Benefits of using WSL
-- WSL 2 & Docker Desktop Configuration
+- Script based WSL 2 & Docker Configuration
 - Creating and Executing Docker Containers for Web Apps
 - Hosting Single Page Applications in Containers using NGINX
 
