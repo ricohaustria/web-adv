@@ -5,9 +5,9 @@ Bei den eingesetzten Sprachen, JavaScript / TypeScript und C#, legen wir Wert da
 
 Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über modernes "Full-Stack-Web-Development"
 
-- Visual Studio Code effektiv einsetzen uns Developer Toolchain Setup
-- Source Control mit Git & Github
-- Modernes JavaScript & TypeScript schreiben
+- Visual Studio Code effektiv einsetzen und Developer Toolchain Setup
+- Git & Github: Source Control, Markdown, Issues & Pull Requests
+- Objektorientiertes JavaScript & TypeScript schreiben
 - Node.js verstehen und einsetzen
 - Implementieren eines Resposive User Interfaces mit CSS Grid & Flexbox
 - Verwenden von Bootstrap 5 und SaSS 
