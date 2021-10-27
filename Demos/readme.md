@@ -91,6 +91,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Angular Components, Services & Dependency Injecction
 - React Introduction
 - Using React Functional Components & Hooks
+- Reacts Role in Extending Microsoft 365:  Teams, SharePoint, and Office-AddIns
 - Blazor Introduction
 - Blazor Server & Blazor Web Assembly
 
