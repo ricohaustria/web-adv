@@ -55,7 +55,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Types, Functions & Enums
 - Using 3rd Party Libraries & Type Definitions
 - Objects, Classes, Interfaces, Enums
-- Ensuring Code Quality using TSLint & Prettier
+- Ensuring Code Quality using ESLint & Prettier
 
 ## Node Based Development Basics
 
