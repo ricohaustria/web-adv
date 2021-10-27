@@ -28,6 +28,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Organizing Monorepos (multible projectes) using VS Code Workspaces
 - Useful Extensions for Visual Studio Code
 - Using Online Editors: Stackblitz, GitHub Codespaces
+- Setup a modern Developer Workspace and Toolchain using Scripts
 
 ## Introduction to Git & GitHub
 
@@ -36,7 +37,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Using GitHub – Repos, Basic Commands, Branching & History
 - Creating Issues and Linking them to Code 
 - Forking, Pull Requests & Git Flow
-- Continous Integration and Deployment using Github Actions
+- Understanding Continuous Integration and Deployment using GitHub Actions
 
 ## Writing Object Oriented JavaScript 
 
