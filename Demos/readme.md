@@ -108,8 +108,7 @@ Neue Themengebiete werden anhand von Folien, Demos und Beispielen erarbeitet. Na
 - Use Cases for Real Time Apps
 - Common Real Time Libraries
 - Implementing Real Time Apps using SignalR
-- Understanding Offline First
-- Local Storage, Indexed DB & Web SQL
+- Understanding Offline First: Local Storage, Indexed DB & Web SQL
 - Progressive Web Apps (PWA) Frameworks
 - Overview Device Access & HTML Apis
 
