@@ -15,20 +15,19 @@
     "command": "editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
   },
-  //Terminal Focus
+  //Open Terminal of Type using Shell Launcher Extension
   {
-    "key": "ctrl+ö",
-    "command": "workbench.action.terminal.focus",
-    "when": "!terminalFocus"
+    "key": "ctrl+shift+numpad_subtract",
+    "command": "shellLauncher.launch"
   },
   {
-    "key": "ctrl+ö",
-    "command": "workbench.action.focusActiveEditorGroup",
+    "key": "alt+k",
+    "command": "workbench.action.terminal.clear",
     "when": "terminalFocus"
   },
   {
-    "key": "ctrl+up",
-    "command": "workbench.action.toggleMaximizedPanel",
-    "when": "terminalFocus"
+    "key": "ctrl+enter",
+    "command": "workbench.action.terminal.runSelectedText",
+    "when": "editorTextFocus && editorHasSelection"
   }
 ]
