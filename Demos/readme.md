@@ -15,8 +15,8 @@ Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über
 - Kennen von aktuellen Single Page Aplication Frameworks: Angular, React, Blazor
 - Entwickeln von Containeriserten WebApps mit Windows Subsystem for Linux 2 (WSL 2)
 - Implementieren von Real Time Anwendungen & Offlineverfügbarkeit
-- Verwenden von Tokenbasierender Authentifizierung
-- Integration Sozialer Netzwerke und Dienste: Facebook & Paypal
+- Verwenden von Tokenbasierender Authentifizierung in Single Page Apps
+
 
 Neue Themengebiete werden anhand von Folien, Demos und Beispielen erarbeitet. Nach jedem Module werden den Teilnehmern eine Auswahl von freien Übungen mit Lösung oder Alternativen Self Learning Labs zur Vertiefung angeboten.
 
