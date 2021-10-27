@@ -64,7 +64,6 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Package Management using NPM & Yarn
 - Task Automation using NPM- & Gulp Scripts
 - Creating Webpack Bundles
-- Creating & Publishing NPM Packages
 
 ## Designing & Implementing Api’s & Graphs
 
