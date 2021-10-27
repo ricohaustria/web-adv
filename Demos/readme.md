@@ -46,7 +46,7 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - ES6 Array Helpers & Utility Functions (Destructuring assignments, Spread, ...)
 - REST, Http Verbs, fetch and axios
 - Promises & Async Await
-- Global Scope, Modules, Exports- und Imports
+- Introduchtion to Observables
 
 ## Introduction to TypeScript
 
