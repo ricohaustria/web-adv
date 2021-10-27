@@ -91,12 +91,13 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Blazor Introduction
 - Blazor Server & Blazor Web Assembly
 
-## Entwickeln in Containern mit Windows Subsystem for Linux 2 (WSL 2)
+## Developing Web Apps with Windows Subsystem for Linux 2 (WSL 2) and Containers
 
-- Ddocker Basics
+- WSL Introduction & Setup
+- Benefits of using WSL
 - WSL 2 & Docker Desktop Configuration
-- Understanding & Building Docker Containers
-- Configuring & Hosting Apps using NGINX
+- Creating and Executing Docker Containers for Web Apps
+- Hosting Single Page Applications in Containers using NGINX
 
 ## Introduction to Real Time- & Offline Apps
 

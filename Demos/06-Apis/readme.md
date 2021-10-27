@@ -1,6 +1,6 @@
 # Api's
 
-- .Net Core
+- NET Core
 - Node / NestJS
 - GraphQL
 
