@@ -37,13 +37,15 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Creating Issues and Linking them to Code 
 - Forking, Pull Requests & Git Flow
 
-## Writing modern JavaScript
+## Writing Object Oriented JavaScript 
 
 - History of ECMA Script Standards
-- ES6 Array Helpers & Utility Functions
-- Classes, Inheritance
+- Object Orientation, Classes, Constructor Functions 
+- Immutability, Pure Functions and Object Cloning
+- ES6 Array Helpers & Utility Functions (Destructuring assignments, Spread, ...)
+- REST, Http Verbs, fetch and axios
+- Promises & Async Await
 - Global Scope, Modules, Exports- und Imports
-- Async Operations using Fetch Api, Promises & Async Await
 
 ## Introduction to TypeScript
 
