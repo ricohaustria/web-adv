@@ -115,4 +115,4 @@ Neue Themengebiete werden anhand von Folien, Demos und durchgängigen Beispielen
 - Implementing Token based Authentication using Azure AD 
 - Using Social Authentication
 - Consuming Facebook Graph
-- Using the Paypal SDK
+- Executing Payments using the Paypal SDK
