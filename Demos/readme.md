@@ -10,10 +10,10 @@ Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über
 - Modernes JavaScript & TypeScript schreiben
 - Node.js verstehen und einsetzen
 - Implementieren eines Resposive User Interfaces mit CSS Grid & Flexbox
-- Verwenden von Bootstrap 5
+- Verwenden von Bootstrap 5 und SaSS 
 - Designing & Implementing Api’s mit .Net Core, Node.js & Graph QL
 - Kennen von aktuellen Single Page Aplication Frameworks: Angular, React, Blazor
-- Entwickeln in Containern mit Windows Subsystem for Linux 2 (WSL 2)
+- Entwickeln von Containeriserten WebApps mit Windows Subsystem for Linux 2 (WSL 2)
 - Implementieren von Real Time Anwendungen & Offlineverfügbarkeit
 - Verwenden von Tokenbasierender Authentifizierung
 - Integration Sozialer Netzwerke und Dienste: Facebook & Paypal
