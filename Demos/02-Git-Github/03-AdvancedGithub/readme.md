@@ -49,11 +49,3 @@ Finish a release:
 ```
 git flow release finish  RELEASE
 ```
-
-## Additional Labs & Walkthroughs
-
-[Introduction to Git](https://docs.microsoft.com/en-us/learn/modules/intro-to-git/)
-
-[Learning Path - Introduction to version control with Git](https://docs.microsoft.com/en-us/learn/paths/intro-to-vc-git/)
-
-[Manage repository changes by using pull requests on GitHub](https://docs.microsoft.com/en-us/learn/modules/manage-changes-pull-requests-github/)
