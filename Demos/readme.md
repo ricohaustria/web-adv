@@ -113,10 +113,8 @@ Neue Themengebiete werden anhand von Folien, Demos und Beispielen erarbeitet. Na
 - Progressive Web Apps (PWA) Frameworks
 - Overview Device Access & HTML Apis
 
-## Token Based Authentication, Social and Payment
+## Understanding and using Token Based Authentication
 
+- Common Identity Providers: Azure AD, Firebase, Social
 - OpenID Connect, JSON Web Tokens (Jwt) & oAuth
-- Implementing Token based Authentication using Azure AD 
-- Using Social Authentication
-- Consuming Facebook Graph
-- Executing Payments using the Paypal SDK
+- Implementing Token based Authentication for Single Page Apps
