@@ -1,6 +1,6 @@
 # Advanced Web Technologies
 
-In dem Seminar „Advanced Web Technologies“ lernen Sie aktuelle Werkzeuge für die Webentwicklung zu nutzen. Git basierend und mit VS Code lernen wir Node.js gezielt als Runtime unseres Developer Toolset einzusetzen, Pakete dynamisch über NPM zu laden, und unsere Lösungen, auch für ältere Browser kompatibel, mit Webpack zu bündeln.
+In dem Seminar „Advanced Web Technologies“ lernen Sie die aktuelle Fullstack Toolchain für die Webentwicklung zu nutzen. Git basierend und mit VS Code lernen wir Node.js gezielt als Runtime unseres Developer Toolset einzusetzen, Pakete dynamisch über NPM zu laden, und unsere Lösungen, auch für ältere Browser kompatibel, mit Webpack zu bündeln.
 Bei den eingesetzten Sprachen, JavaScript / TypeScript und C#, legen wir Wert darauf, modernen Syntax zu verwenden. Wir vermitteln die neuesten Skills im Bereich responsive UI Design, auch am Beispiel von Bootstrap 5, und stellen aktuelle Single Page Application Frameworks wie Angular, React und Blazor vor. Container basierendes Development, Real-Time Anwendungen und tokenbasierende Authentifizierung runden die vermittelten Themen ab.
 
 Nach Abschluss dieses Seminars haben die Teilnehmer einen guten Überblick über modernes "Full-Stack-Web-Development"
