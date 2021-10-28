@@ -1,9 +1,3 @@
-# Emmet
+# Setup Dev Environment
 
-[Emmet Documentation](https://docs.emmet.io)
-
-## Emmet in VS Code
-
-Dont forget to add this setting for preview: `"emmet.triggerExpansionOnTab": true`
-
-[Emmet VS Code](https://code.visualstudio.com/docs/editor/emmet)
+Explain `setup-web-adv.ps1` from `/Setup` folder
