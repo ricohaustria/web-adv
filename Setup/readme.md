@@ -80,15 +80,15 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@yourdomain.com"
 ```
 
-Go to `https://github.com/arambazamba/ng-dev` and fork the repo
+Go to `https://github.com/arambazamba/ng-dev` and fork the repo:
 
 ![forking-wf](_images/fork.jpg)
 
-The forking-workflow allows you to commit your changes to your fork of the repo and still get updates on the repo
+The [forking workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) allows you to commit your changes to your own fork of still get updates from the instructors repo:
 
-![forking-wf](_images/forking-workflow.jpg)
+![fetch-upstream](_images/fetch-upstream.png)
 
-Clone Class Repo:
+Clone class repo to your lab machine:
 
 ```bash
 git clone https://github.com/Student01/ng-dev
