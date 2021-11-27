@@ -1,6 +1,69 @@
-# Setup
+# Lab Setup Guide
 
-Execute `setup-angular-dev.ps1` on any Windows machine. It installs
+- Create VM (optional)
+- Install software
+- Fork & Clone Class Repo and set Github requirements
+
+## Create VM - optional
+
+Execute `create-lab-vm.sh` or run the following remote script in Cloud Shell
+
+```bash
+curl https://raw.githubusercontent.com/arambazamba/ng-dev/main/Setup/create-lab-vm.sh | bash
+```
+
+![create-labvm](_images/create-lab-vm.jpg)
+
+> Note: In order for Docker to work on a Windows 10 host you need to install Hyper-V or use Windows Subsystem for Linux 2 (WSL2). A detailed Setup Guide can be found [here](https://github.com/ARambazamba/ClassSetup)
+
+### Connect to VM
+
+Go to Ressource Group `ng-dev` and connect to VM using RDP and the credentials that you have used in the script:
+
+Download RDP File:
+
+![download-rdp](_images/download-rdp.jpg)
+
+Optional - Disable Login:
+
+![disable-login](_images/disable-login.jpg)
+
+Sign In & Remember:
+
+![connect-rdp](_images/trust-vm.jpg)
+
+Credentials:
+
+```
+user=ng-devlabadmin
+pwd=Lab@dmin1233
+```
+
+![sign-in.jpg](_images/sign-in.jpg)
+
+Accept Settings:
+
+![accept-settings](_images/accept-settings.jpg)
+
+## Install Software
+
+Base Software Requirements:
+
+- [Node 14.x](https://nodejs.org/download/release/v14.18.0/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
+- [Git](https://git-scm.com/downloads)
+
+To install an optimal software configuration run the script `setup-angular-dev.ps1` from an elevated PowerShell prompt:
+
+![run-as](_images/run-as.jpg)
+
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force;
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/arambazamba/ng-dev/main/Setup/setup-web-adv.ps1'))
+```
+
+Execute `setup-web-adv` on any Windows machine. It installs:
 
 - [Chocolatey- THE PACKAGE MANAGER FOR WINDOWS](https://chocolatey.org/)
 - Basic Git Support
