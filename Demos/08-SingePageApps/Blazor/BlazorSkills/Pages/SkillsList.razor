@@ -29,7 +29,11 @@ else
                     <td>@sk.Name</td>
                     <td>@sk.Hours</td>
                     <td>@sk.Completed</td>
-                    <td>Edit</td>
+                    <td>
+                        <NavLink class="nav-link" href="@sk.Url" >
+                            Edit
+                        </NavLink>
+                    </td>
                 </tr>
             }
         </tbody>
