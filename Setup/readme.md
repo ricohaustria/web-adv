@@ -80,7 +80,7 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@yourdomain.com"
 ```
 
-Go to `https://github.com/arambazamba/ng-dev` and fork the repo:
+Go to [https://github.com/ARambazamba/web-adv](https://github.com/ARambazamba/web-adv) and fork the repo:
 
 ![forking-wf](_images/fork.jpg)
 
@@ -88,7 +88,7 @@ The [forking workflow](https://www.atlassian.com/git/tutorials/comparing-workflo
 
 ![fetch-upstream](_images/fetch-upstream.png)
 
-Clone class repo to your lab machine:
+Clone the class repo to your lab machine:
 
 ```bash
 git clone https://github.com/Student01/ng-dev
