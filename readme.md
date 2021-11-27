@@ -7,9 +7,9 @@ Companion Material for Class Delivery by [Alexander Pajer](https://www.integrati
   - [Visual Studio Code Intro](./Tooling/02-VSCode)
   - [Document Repos using Markdown](./Tooling/03-Markdown)
 - [Instructor Demos](./Demos)
-- [Lab Setup including an optional Azure hosted Lab VM](./Setup)
-  - Create VM (optional)
-  - Install software
+- [Lab Machine Setup including an optional Azure hosted Lab VM](./Setup)
+  - Create Azure Lab Virtual Machine (optional)
+  - Install required class software
   - Fork & Clone Class Repo and set Github requirements
 - [Labs](./Labs)
 
