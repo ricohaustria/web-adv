@@ -67,9 +67,33 @@ Execute `setup-web-adv` on any Windows machine. It installs:
 
 - [Chocolatey- THE PACKAGE MANAGER FOR WINDOWS](https://chocolatey.org/)
 - Basic Git Support
-- VS Code and basic extensions
+- [Visual Studio Code](https://code.visualstudio.com/) and basic extensions
 - [Node Version Manager](https://github.com/coreybutler/nvm-windows) with Node 12.x and 14.x
 - Angular CLI
 
+## Fork & clone Class Repo and set GitHub requirements
+
+Set User and E-Mail in order to be able to commit to git:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@yourdomain.com"
+```
+
+Go to `https://github.com/arambazamba/ng-dev` and fork the repo
+
+![forking-wf](_images/fork.jpg)
+
+The forking-workflow allows you to commit your changes to your fork of the repo and still get updates on the repo
+
+![forking-wf](_images/forking-workflow.jpg)
+
+Clone Class Repo:
+
+```bash
+git clone https://github.com/Student01/ng-dev
+```
+
+> Note: If you have forked the class repo clone your own fork, otherwise use https://github.com/ARambazamba/ng-dev
 
 
