@@ -51,7 +51,6 @@ Base Software Requirements:
 
 - [Node 14.x](https://nodejs.org/download/release/v14.18.0/)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
 - [Git](https://git-scm.com/downloads)
 
 To install an optimal software configuration run the script `setup-angular-dev.ps1` from an elevated PowerShell prompt:
