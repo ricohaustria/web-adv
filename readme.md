@@ -12,7 +12,7 @@ Companion Material for Class Delivery by [Alexander Pajer](https://www.integrati
   - Install required class software
   - Fork & Clone Class Repo and set Github requirements
 
-## Recommended Online Account and Ressources
+## Recommended Online Accounts and Ressources
 
 - [Github User Account](https://github.com/)
 - [Firebase Account](https://firebase.google.com/)
