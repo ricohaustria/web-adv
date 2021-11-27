@@ -15,9 +15,7 @@ Companion Material for Class Delivery by [Alexander Pajer](https://www.integrati
 ## Recommended Online Account and Ressources
 
 - [Github User Account](https://github.com/)
-
 - [Firebase Account](https://firebase.google.com/)
-
 - [Azure Trial Account](https://azure.microsoft.com/en-us/free/)
 
 ## Contributing
