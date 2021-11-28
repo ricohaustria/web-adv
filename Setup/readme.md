@@ -2,9 +2,9 @@
 
 - Create Azure Lab Virtual Machine (optional)
 - Install required class software
-- Fork & Clone Class Repo and set Github requirements
+- Fork & Clone Class Repo and configure GitHub requirements
 
-## Create VM - optional
+## Create Azure Lab Virtual Machine - optional
 
 Execute `create-lab-vm.sh` or run the following remote script in Cloud Shell
 
@@ -45,7 +45,7 @@ Accept Settings:
 
 ![accept-settings](_images/accept-settings.jpg)
 
-## Install Software
+## Install required class software
 
 Base Software Requirements:
 
@@ -70,7 +70,7 @@ Execute `setup-web-adv` on any Windows machine. It installs:
 - [Node Version Manager](https://github.com/coreybutler/nvm-windows) with Node 12.x and 14.x
 - Angular CLI
 
-## Fork & clone Class Repo and set GitHub requirements
+## Fork & Clone Class Repo and configure GitHub requirements
 
 Set User and E-Mail in order to be able to commit to git:
 
