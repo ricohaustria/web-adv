@@ -70,7 +70,7 @@ Execute `setup-web-adv` on any Windows machine. It installs:
 - [Node Version Manager](https://github.com/coreybutler/nvm-windows) with Node 12.x and 14.x
 - Angular CLI
 
-## Fork & Clone Class Repo and configure GitHub requirements<a id='fork'>
+##<a id='fork'>Fork & Clone Class Repo and configure GitHub requirements
 
 Set User and E-Mail in order to be able to commit to git:
 
