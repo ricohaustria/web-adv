@@ -18,7 +18,7 @@ curl https://raw.githubusercontent.com/arambazamba/ng-dev/main/Setup/create-lab-
 
 ### Connect to VM
 
-Go to Ressource Group `ng-dev` and connect to VM using RDP and the credentials that you have used in the script:
+Go to Ressource Group `az-lab` and connect to VM using RDP and the credentials that you have used in the script:
 
 Download RDP File:
 
@@ -35,7 +35,7 @@ Sign In & Remember:
 Credentials:
 
 ```
-user=ng-devlabadmin
+user=azlabadmin
 pwd=Lab@dmin1233
 ```
 
