@@ -1,7 +1,7 @@
 # Lab Setup Guide
 
-- Create VM (optional)
-- Install software
+- Create Azure Lab Virtual Machine (optional)
+- Install required class software
 - Fork & Clone Class Repo and set Github requirements
 
 ## Create VM - optional
