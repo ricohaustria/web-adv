@@ -10,7 +10,7 @@ Companion Material for Class Delivery by [Alexander Pajer](https://www.integrati
 - [Lab Machine Setup including an optional Azure hosted Lab VM](./Setup)
   - Create Azure Lab Virtual Machine (optional)
   - Install required class software
-  - Fork & Clone Class Repo and set Github requirements
+  - Fork & Clone Class Repo and configure GitHub requirements
 
 ## Recommended Online Accounts and Ressources
 
