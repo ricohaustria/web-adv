@@ -47,13 +47,7 @@ Accept Settings:
 
 ## Install required class software<a id='software'>
 
-Base Software Requirements:
-
-- [Node 14.x](https://nodejs.org/download/release/v14.18.0/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Git](https://git-scm.com/downloads)
-
-To install an optimal software configuration run the script `setup-angular-dev.ps1` from an elevated PowerShell prompt:
+To install an optimal software configuration run the script `setup-web-adv.ps1` from an elevated PowerShell prompt:
 
 ![run-as](_images/run-as.jpg)
 
@@ -62,7 +56,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force;
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/arambazamba/ng-dev/main/Setup/setup-web-adv.ps1'))
 ```
 
-Execute `setup-web-adv.ps1` on a Windows machine. It installs:
+It installs:
 
 - [Chocolatey- THE PACKAGE MANAGER FOR WINDOWS](https://chocolatey.org/)
 - [Basic Git Support](https://git-scm.com/downloads)
