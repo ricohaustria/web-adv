@@ -62,13 +62,13 @@ Set-ExecutionPolicy Bypass -Scope Process -Force;
 Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/arambazamba/ng-dev/main/Setup/setup-web-adv.ps1'))
 ```
 
-Execute `setup-web-adv` on any Windows machine. It installs:
+Execute `setup-web-adv.ps1` on a Windows machine. It installs:
 
 - [Chocolatey- THE PACKAGE MANAGER FOR WINDOWS](https://chocolatey.org/)
-- Basic Git Support
+- [Basic Git Support](https://git-scm.com/downloads)
 - [Visual Studio Code](https://code.visualstudio.com/) and basic extensions
 - [Node Version Manager](https://github.com/coreybutler/nvm-windows) with Node 12.x and 14.x
-- Angular CLI
+- Several CLI's and Extensions
 
 ##<a id='fork'>Fork & Clone Class Repo and configure GitHub requirements
 
