@@ -53,7 +53,7 @@ To install an optimal software configuration run the script `setup-web-adv.ps1` 
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force;
-Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/arambazamba/ng-dev/main/Setup/setup-web-adv.ps1'))
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/arambazamba/web-adv/master/Setup/setup-web-adv.ps1'))
 ```
 
 It installs:
