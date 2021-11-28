@@ -8,9 +8,9 @@ Companion Material for Class Delivery by [Alexander Pajer](https://www.integrati
   - [Document Repos using Markdown](./Tooling/03-Markdown)
 - [Instructor Demos & Labs](./Demos)
 - [Lab Machine Setup including an optional Azure hosted Lab VM](./Setup)
-  - Create Azure Lab Virtual Machine (optional)
-  - Install required class software
-  - Fork & Clone Class Repo and configure GitHub requirements
+  - [Create Azure Lab Virtual Machine (optional)](./Setup#labvm)
+  - [Install required class software](./Setup#software)
+  - [Fork & Clone Class Repo and configure GitHub requirements](./Setup#fork)
 
 ## Recommended Online Accounts and Ressources
 
