@@ -1,23 +1,22 @@
-import { Util } from "./util";
-import { Car } from "./car";
-import { State } from "./state";
+import { FoodService } from './food-service';
+import { Car } from './car';
 
 console.log(`Manually init util`);
 
-let util = new Util();
+let util = new FoodService('http://localhost:3000/food');
 util.log();
 
-util
-  .getFood("http://localhost:3000/food")
-  .then((data) => console.log(`current food: ${data}`));
+util.getFoodFetch().then((data) => console.log(`current food: ${data}`));
 
 console.log(`Init State`);
 
-let state = new State();
+let food = { name: 'Langos' };
+
+util.addFood(food).then((resp) => console.log('new food added:', resp));
 
 function driveCar() {
-  let porsche = new Car();
-  porsche.drive();
+    let porsche = new Car();
+    porsche.drive();
 }
 
 driveCar();

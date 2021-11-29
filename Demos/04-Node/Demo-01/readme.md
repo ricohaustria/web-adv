@@ -4,14 +4,37 @@
 
 ## Tools installation
 
-- Use Node.js 10.x
-- Use Webpack 4.x and webpack-cli
+- Check your current global installations:
 
 ```
-nvm install 10.24.1
-nvm use 10.24.1
-npm i -g webpack@4.44.2 webpack-cli gulp gulp-cli
+npm list -g --depth=0
 ```
+- Install sample global requirements:
+
+```
+nvm install 14.18.0
+nvm use 14.18.0
+npm i -g webpack@5.60.0 webpack-cli@4.9.1 gulp@4.0.2 http-server@14.0.0 
+```
+
+## Rest Calls
+
+Install json-server:
+
+```
+npm i -g json-server
+```
+
+Start json-server from within proj. directory (node-dev-tool):
+
+```
+json-server db.json
+```
+
+Test json-server:
+
+- Install [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+- Execute steps in `demo-rest-calls.http`
 
 ## Gulp
 
@@ -40,3 +63,5 @@ webpack
 [npm audit](https://docs.npmjs.com/cli/audit.html)
 
 ![audit](_images/npm-audit.png)
+
+##
