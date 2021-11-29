@@ -2,14 +2,15 @@
 
 [npm CLI Documentation](https://docs.npmjs.com/cli-documentation/)
 
-[npm audit](https://docs.npmjs.com/cli/audit.html)
-
-![audit](_images/npm-audit.png)
-
 ## Tools installation
 
+- Use Node.js 10.x
+- Use Webpack 4.x and webpack-cli
+
 ```
-npm i -g webpack webpack-cli gulp gulp-cli
+nvm install 10.24.1
+nvm use 10.24.1
+npm i -g webpack@4.44.2 webpack-cli gulp gulp-cli
 ```
 
 ## Gulp
@@ -33,3 +34,9 @@ Run webpack:
 webpack
 ```
 > Note: Uses `webpack.config.js` by default
+
+## Auditing Security Issues
+
+[npm audit](https://docs.npmjs.com/cli/audit.html)
+
+![audit](_images/npm-audit.png)
