@@ -64,7 +64,7 @@ It installs:
 - [Node Version Manager](https://github.com/coreybutler/nvm-windows) with Node 12.x and 14.x
 - Several CLI's and Extensions
 
-##<a id='fork'>Fork & Clone Class Repo and configure GitHub requirements
+##Fork & Clone Class Repo and configure GitHub requirements<a id='fork'>
 
 Set User and E-Mail in order to be able to commit to git:
 
