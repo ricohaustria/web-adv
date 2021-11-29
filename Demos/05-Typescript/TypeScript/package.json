@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "date-fns": "^2.7.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.6.0",
     "linqts": "^1.12.2",
     "moment": "^2.22.2",
     "rxjs": "^6.3.3"
@@ -25,7 +25,7 @@
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.14.1",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
