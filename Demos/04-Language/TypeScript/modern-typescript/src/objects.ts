@@ -1,3 +1,5 @@
+import * as _ from 'lodash';
+
 export class ObjectDemos {
     objectsBasics() {
         // Plain old JavaScript
@@ -39,7 +41,7 @@ export class ObjectDemos {
             return { ...person };
         }
 
-        let person: any = { Id: 1, Name: 'Alexander' };
+        let person: any = { Id: 1, Name: 'Martin' };
         var cloned = getPersonClone(person);
 
         //Method definition shorthand
@@ -68,6 +70,27 @@ export class ObjectDemos {
         console.log(firstName + ', ' + name);
     }
 
+    impFunction() {
+        var name = 'Sandra';
+
+        function greet() {
+            name += ', how are you today?';
+            console.log(name);
+        }
+
+        greet();
+        greet();
+    }
+
+    pureFunction() {
+        function greet(name) {
+            return `${name}, how are you today`;
+        }
+
+        console.log(greet('Sandra'));
+        console.log(greet('Heinz'));
+    }
+
     objAssign() {
         var obj = { name: 'Giro' };
         var copy = Object.assign({}, obj, {
@@ -77,19 +100,19 @@ export class ObjectDemos {
     }
 
     valref() {
-        let person: any = { Id: 1, Name: 'Alexander' };
+        let person: any = { Id: 1, Name: 'Martin' };
         let myNumber: number = 100;
 
         function passArgs(nbr: number, pers: any) {
             nbr += 1;
-            pers.Name = 'Alex';
+            pers.Name = 'Giro';
         }
 
         passArgs(myNumber, person);
         console.log('result for myNumber & person:', myNumber, person);
 
         myNumber = 500;
-        person.Name = 'Alexander';
+        person.Name = 'Martin';
         passArgs(myNumber, Object.assign({}, person));
         console.log('result for myNumber & person using Object.assign():', myNumber, person);
 
@@ -113,5 +136,56 @@ export class ObjectDemos {
 
         var person = { ...simplePerson, ...dataPerson };
         console.log(person);
+    }
+
+    manualCloning() {
+        let p = {
+            name: 'Alexander ',
+            dogs: [
+                { dogname: 'Soi', breed: 'Whippet' },
+                { dogname: 'Giro', breed: 'Galgo Espanol' },
+            ],
+        };
+
+        function iterationCopy(src): { name: string; dogs: { dogname: string; breed: string }[] } {
+            let target: any = {};
+            for (let prop in src) {
+                if (src.hasOwnProperty(prop)) {
+                    target[prop] = src[prop];
+                }
+            }
+            return target;
+        }
+
+        let copyPerson = iterationCopy(p);
+
+        copyPerson.name = 'Martin';
+        copyPerson.dogs[0].dogname = 'Soitscherl';
+
+        console.log('Original', p);
+        console.log('Copied', copyPerson);
+    }
+
+    lodashCloning() {
+        let p = {
+            name: 'Giro ',
+            dogs: [
+                {
+                    dogname: 'Soi',
+                    breed: 'Whippet',
+                    dob: new Date(),
+                    bark: () => console.log('barking'),
+                },
+                { dogname: 'Giro', breed: 'Galgo Espanol' },
+            ],
+        };
+
+        let copyPerson = _.cloneDeep(p);
+
+        copyPerson.name = 'Martin';
+        copyPerson.dogs[0].dogname = 'Soitscherl';
+
+        console.log('Original', p);
+        console.log('Copied', copyPerson);
     }
 }

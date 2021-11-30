@@ -11,10 +11,12 @@
     "axios": "^0.24.0",
     "date-fns": "^2.26.0",
     "linqts": "^1.12.2",
+    "lodash": "^4.17.21",
     "rxjs": "^6.3.3"
   },
   "devDependencies": {
     "@types/jquery": "^3.3.2",
+    "@types/lodash": "^4.14.177",
     "@types/node": "~8.9.4",
     "angular-http-server": "^1.9.0",
     "autoprefixer": "^9.3.1",
