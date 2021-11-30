@@ -1,24 +1,23 @@
 import axios from 'axios';
 import { from, Observable } from 'rxjs';
 import { Voucher } from './Voucher';
+import { Skill } from './skill.model';
 
 export class ServicesDemos {
-    url = 'vouchers.json';
+    apiurl = 'http://localhost:3000/skills';
 
     usingFetch() {
-        fetch(this.url)
-            .then<Voucher[]>((resp: Response) => {
+        fetch(this.apiurl)
+            .then<Skill[]>((resp: Response) => {
                 console.log('Response received from fetch:', resp);
                 return resp.json();
             })
-            .then((data: Voucher[]) => {
+            .then((data: Skill[]) => {
                 console.log('Data received from fetch:', data);
             });
     }
 
     postFetch() {
-        let skilsapi = 'http://localhost:3000/skills';
-
         let skill = {
             name: 'DevOps',
             completed: true,
@@ -33,7 +32,7 @@ export class ServicesDemos {
             },
         };
 
-        fetch(skilsapi, options)
+        fetch(this.apiurl, options)
             .then(function (res) {
                 if (res.ok) {
                     return res.statusText;
@@ -45,14 +44,25 @@ export class ServicesDemos {
             .catch((err) => console.log(err));
     }
 
+    postAxios() {
+        let skill = {
+            name: 'DevOps',
+            completed: true,
+        };
+
+        axios.post(this.apiurl, skill).then((response) => {
+            console.log('response received:', response);
+        });
+    }
+
     usingFetchAwait() {
-        async function getAllVouchers() {
-            let response = await fetch('/assets/vouchers.json');
-            let voucher = await response.json();
-            console.log('Data received using fetch - await: ', voucher);
+        async function getAllSkills() {
+            let response = await fetch(this.url);
+            let skills = await response.json();
+            console.log('Data received using fetch - await: ', skills);
         }
 
-        getAllVouchers();
+        getAllSkills();
     }
 
     usingPromises() {
@@ -93,7 +103,7 @@ export class ServicesDemos {
         }
 
         axios
-            .get(this.url)
+            .get(this.apiurl)
             .then((resp) => popFirstAsync(resp.data))
             .then((data) => console.log('data from chaining', data));
 
@@ -110,7 +120,7 @@ export class ServicesDemos {
 
 export class VoucherService {
     getVouchers(): Promise<Voucher[]> {
-        let url = 'vouchers.json';
+        let url = './src/vouchers.json';
 
         return new Promise<Voucher[]>((resolve, reject) => {
             fetch(url)
