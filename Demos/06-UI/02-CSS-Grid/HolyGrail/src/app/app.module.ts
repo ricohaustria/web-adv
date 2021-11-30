@@ -48,7 +48,7 @@ const appRoutes: Routes = [
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes, { enableTracing: false })
+    RouterModule.forRoot(appRoutes, { enableTracing: false, relativeLinkResolution: 'legacy' })
   ],
   providers: [{ provide: LOCALE_ID, useValue: "de-DE" }],
   bootstrap: [AppComponent]
