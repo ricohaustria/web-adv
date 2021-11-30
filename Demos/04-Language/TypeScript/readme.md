@@ -2,8 +2,6 @@
 
 [Typescript Documentation](https://www.typescriptlang.org/)
 
-[Module Formats](https://webassembly.studio/)
-
 ## Demos
 
 ```
