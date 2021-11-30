@@ -1,5 +1,5 @@
 # Language
 
-- JavaScript (for refrence only)
+- JavaScript (for reference only)
 - TypeScript
 - Modules
