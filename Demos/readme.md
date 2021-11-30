@@ -39,25 +39,6 @@ Neue Themengebiete werden anhand von Folien, Demos und Beispielen erarbeitet. Na
 - Forking, Pull Requests & Git Flow
 - Understanding Continuous Integration and Deployment using GitHub Actions
 
-## Writing Object Oriented JavaScript 
-
-- History of ECMA Script Standards
-- Object Orientation, Classes, Constructor Functions 
-- Immutability, Pure Functions and Object Cloning
-- ES6 Array Helpers & Utility Functions (Destructuring assignments, Spread, ...)
-- REST, Http Verbs, fetch and axios
-- Promises & Async Await
-- Introduchtion to Observables
-
-## Introduction to TypeScript
-
-- TypeScript Overview & Language
-- Debugging using Source Maps
-- Types, Functions & Enums
-- Using 3rd Party Libraries & Type Definitions
-- Objects, Classes, Interfaces, Enums
-- Ensuring Code Quality using ESLint & Prettier
-
 ## Node Based Development Basics
 
 - Node.js Role in modern Web Development
@@ -65,6 +46,22 @@ Neue Themengebiete werden anhand von Folien, Demos und Beispielen erarbeitet. Na
 - Package Management using NPM & Yarn
 - Task Automation using NPM- & Gulp Scripts
 - Creating Webpack Bundles
+
+## Language
+
+- History of ECMA Script Standards
+- TypeScript Overview & Language
+- Debugging using Source Maps
+- Types, Functions & Enums
+- Using 3rd Party Libraries & Type Definitions
+- Objects, Classes, Interfaces, Enums
+- Ensuring Code Quality using ESLint & Prettier
+- Object Orientation, Classes, Constructor Functions 
+- Immutability, Pure Functions and Object Cloning
+- ES6 Array Helpers & Utility Functions (Destructuring assignments, Spread, ...)
+- REST, Http Verbs, fetch and axios
+- Promises & Async Await
+- Introduchtion to Observables
 
 ## Designing & Implementing Api’s & Graphs
 
