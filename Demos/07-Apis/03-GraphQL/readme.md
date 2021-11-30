@@ -15,7 +15,7 @@ npm run devStart
 
 Go to [http://localhost:5000/graphql](http://localhost:5000/graphql) and enter the following query:
 
-```json
+```
 {
   books {
     name
