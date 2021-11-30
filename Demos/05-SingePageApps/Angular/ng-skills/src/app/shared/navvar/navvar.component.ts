@@ -8,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class NavvarComponent implements OnInit {
   constructor() {}
 
-  navlinks = ['Home', 'Skills', 'About'];
+  navlinks = [
+    { name: 'Home', lnk: '' },
+    { name: 'Skills', lnk: '/skills' },
+    { name: 'About', lnk: '/about' },
+  ];
 
   ngOnInit(): void {}
 }
