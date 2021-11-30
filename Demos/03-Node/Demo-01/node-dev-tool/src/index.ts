@@ -3,16 +3,16 @@ import { Car } from './car';
 
 console.log(`Manually init util`);
 
-let util = new FoodService('http://localhost:3000/food');
-util.log();
+let service = new FoodService('http://localhost:3000/food');
+service.log();
 
-util.getFoodFetch().then((data) => console.log(`current food: ${data}`));
+service.getFoodFetch().then((data) => console.log(`current food: ${data}`));
 
 console.log(`Init State`);
 
 let food = { name: 'Langos' };
 
-util.addFood(food).then((resp) => console.log('new food added:', resp));
+service.addFood(food).then((resp) => console.log('new food added:', resp));
 
 function driveCar() {
     let porsche = new Car();

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export class FoodService {
-    constructor(private url) {}
+    constructor(private url: string) {}
 
     log() {
         console.log('hello word logged from util');
