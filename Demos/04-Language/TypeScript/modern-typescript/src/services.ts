@@ -120,7 +120,7 @@ export class ServicesDemos {
 
 export class VoucherService {
     getVouchers(): Promise<Voucher[]> {
-        let url = 'vouchers.json';
+        let url = './src/vouchers.json';
 
         return new Promise<Voucher[]>((resolve, reject) => {
             fetch(url)
