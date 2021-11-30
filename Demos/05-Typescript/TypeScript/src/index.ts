@@ -15,14 +15,14 @@ import { RxJSDemos } from './rxjs';
 (<any>window).loadIt = loadContent;
 
 export function loadContent(page) {
+    let path = './src/' + page;
     $.ajax({
         type: 'GET',
-        url: page,
+        url: path,
         contentType: 'application/json; charset=utf-8',
         dataType: 'text',
         success: function (data) {
             if (data != null) {
-                let path = './src/' + data;
                 $('#workbench').empty();
                 $('#workbench').html(path);
             }
@@ -36,9 +36,10 @@ export function loadContent(page) {
 //Exposing Class to GlobalNamespace
 export class Loader {
     load(page) {
+        let path = './src/' + page;
         $.ajax({
             type: 'GET',
-            url: page,
+            url: path,
             contentType: 'application/json; charset=utf-8',
             dataType: 'text',
             success: function (data) {
