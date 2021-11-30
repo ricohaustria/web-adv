@@ -56,8 +56,9 @@ export class TypesDemos {
         const pi = 3.14;
         //pi = 2;
 
-        const person = { name: 'john', age: 22 };
+        const person = { name: 'john', age: 22 } as any;
         person.name = 'franz';
+        person.lastname = 'huber';
     }
 
     stringFunctions() {
@@ -68,7 +69,7 @@ export class TypesDemos {
         var url = 'http://server/' + category + '/' + productID;
         console.log(url);
 
-        //Template Literals using Backticks
+        //Template Literals using Backticks - C# String Interpolation - Java String.format()
         var tl = `http://server/${category}/${productID}`;
         console.log(tl);
 
@@ -139,22 +140,23 @@ export class TypesDemos {
 
         enum VoucherStatus {
             draft,
-            complete,
+            paid,
             pending,
         }
 
         var status: VoucherStatus;
         status = VoucherStatus.draft;
-        status = VoucherStatus.complete;
+        status = VoucherStatus.paid;
         // status = VoucherStatus.unfinished; // compile-time error
         //status = "on the way"; // compile-time error
 
-        if (status === VoucherStatus.complete) {
+        if (status === VoucherStatus.paid) {
+            //do someting
         }
 
         function handleVoucher(v: Voucher, status: VoucherStatus) {
             switch (status) {
-                case VoucherStatus.complete:
+                case VoucherStatus.paid:
                     console.log(`got voucher ${v}: will pay`);
                     break;
                 case VoucherStatus.draft:
@@ -171,12 +173,12 @@ export class TypesDemos {
 
         var newVoucher = new Voucher();
 
-        let v: Voucher = <Voucher>{
+        let v: Voucher = {
             ID: 1,
             Text: 'Media Markt',
             Amount: 22,
             Date: new Date(),
-        };
+        } as Voucher;
 
         handleVoucher(v, status);
     }
@@ -197,26 +199,21 @@ export class TypesDemos {
         console.log('Person with index 1 is' + customers[1]);
 
         //for ... of
-        let list: number[] = [4, 5, 6];
+        let list: string[] = ['a', 'b', 'c'];
 
         for (let i in list) {
             console.log(i); // "0", "1", "2", -> for ... in loop returns index
         }
 
         for (let i of list) {
-            console.log(i); // "4", "5", "6"  -> for ... of loop returns element
+            console.log(i); // "a", "b", "c"  -> for ... of loop returns element
         }
 
         // array destructuring
         let arrNbr = [8, 4, 100, -5, 20];
         let [first, second, third] = arrNbr;
+
         console.log(third, second, first); // output: 100, 4, 8
-
-        let myArray = [1, ['hello'], true],
-            [a, b, c] = myArray;
-
-        // output: 1, ['hello']
-        console.log(a, b);
     }
 
     arrayHelpers() {
@@ -241,10 +238,12 @@ export class TypesDemos {
             fruit.quantity++;
         });
 
+        //forEach using arrow function
         fruits.forEach((item: any) => {
             item.quantity++;
         });
 
+        //forEach using arrow function without body
         fruits.forEach((item) => item.quantity++);
 
         //find -> returns first item
@@ -260,11 +259,10 @@ export class TypesDemos {
         console.log(cheap);
 
         //map -> shape arr
-        var names = fruits.map(function (item) {
-            return item.name;
-        });
+        //sample el:  { name: 'apples', quantity: 2, price: 3, region: 'europe' }
+        var names = fruits.map((item) => item.name);
 
-        var lables = fruits.map(function (item) {
+        var lables = fruits.map((item) => {
             return {
                 label: `${item.name} costs ${item.price}`,
                 stockInEuro: item.quantity * item.price,
@@ -285,9 +283,7 @@ export class TypesDemos {
             return a + b;
         });
 
-        var total: number = arr.reduce(function (a, b) {
-            return a + b;
-        }, 0);
+        var total: number = arr.reduce((a, b) => a + b, 0);
         console.log('total is : ' + total);
 
         var rockets = [

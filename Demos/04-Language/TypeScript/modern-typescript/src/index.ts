@@ -20,7 +20,9 @@ export function loadContent(page) {
         .then((resp) => {
             if (resp != null) {
                 let workbench = document.querySelector('#workbench');
-                workbench.innerHTML = resp.data;
+                if (workbench) {
+                    workbench.innerHTML = `<div id='sampleHeading'><h3></h3><br/>Source: ${page}</div>${resp.data}`;
+                }
             }
         })
         .catch((msg) => {
@@ -37,7 +39,9 @@ export class Loader {
             .then((resp) => {
                 if (resp != null) {
                     let workbench = document.querySelector('#workbench');
-                    workbench.innerHTML = resp.data;
+                    if (workbench) {
+                        workbench.innerHTML = `<div id='sampleHeading'><h3></h3><br/>Source: ${page}</div>${resp.data}`;
+                    }
                 }
             })
             .catch((msg) => {

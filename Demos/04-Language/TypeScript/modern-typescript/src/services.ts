@@ -45,14 +45,27 @@ export class ServicesDemos {
             .catch((err) => console.log(err));
     }
 
+    postAxios() {
+        let skilsapi = 'http://localhost:3000/skills';
+
+        let skill = {
+            name: 'DevOps',
+            completed: true,
+        };
+
+        axios.post(skilsapi, skill).then((response) => {
+            console.log('response received:', response);
+        });
+    }
+
     usingFetchAwait() {
-        async function getAllVouchers() {
-            let response = await fetch('/assets/vouchers.json');
-            let voucher = await response.json();
-            console.log('Data received using fetch - await: ', voucher);
+        async function getAllSkills() {
+            let response = await fetch('http://localhost:3000/skills');
+            let skills = await response.json();
+            console.log('Data received using fetch - await: ', skills);
         }
 
-        getAllVouchers();
+        getAllSkills();
     }
 
     usingPromises() {

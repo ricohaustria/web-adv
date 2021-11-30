@@ -61,6 +61,7 @@ export class ClassesDemos {
 
         class Dog {
             constructor(private name: string, public breed: string) {}
+
             barkName() {
                 return 'Wuff, my name is ' + this.name + ', I am a ' + this.breed;
             }
@@ -141,8 +142,8 @@ export class ClassesDemos {
 
         class Sighthound extends Dog {
             constructor(name: string) {
-                super(name);
-            } //super -> C# .base
+                super(name); //calls base constructor
+            }
 
             public speed: string = 'with up to 110 km/h';
 

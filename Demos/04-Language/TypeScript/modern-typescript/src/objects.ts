@@ -73,30 +73,32 @@ export class ObjectDemos {
     impFunction() {
         var name = 'Sandra';
 
-        function greet() {
-            name += ', how are you today?';
+        function greet(age: number) {
+            name += `, how are you today? Your are ${age} years old`;
             console.log(name);
         }
 
-        greet();
-        greet();
+        greet(14);
+
+        name = 'Sabine';
+        greet(14);
     }
 
     pureFunction() {
-        function greet(name) {
-            return `${name}, how are you today`;
+        function greet(age: number, name: string) {
+            return `${name}, how are you today? Your are ${age} years old`;
         }
 
-        console.log(greet('Sandra'));
-        console.log(greet('Heinz'));
+        console.log(greet(14, 'Sandra'));
+        console.log(greet(24, 'Heinz'));
     }
 
     objAssign() {
-        var obj = { name: 'Giro' };
-        var copy = Object.assign({}, obj, {
+        var giro = { name: 'Giro' };
+        var result = Object.assign({}, giro, {
             birth: new Date(),
         });
-        console.log(copy);
+        console.log('is this a copy or a clone?', result);
     }
 
     valref() {
