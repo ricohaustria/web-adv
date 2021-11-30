@@ -3,12 +3,14 @@ export class InterfacesDemos {
         interface IHumanBeeing {
             name: string;
             birthDate: Date;
+            walk: void;
         }
 
         class Knight implements IHumanBeeing {
             name: string;
             birthDate: Date;
             weapon: string = 'Battle Axe';
+            walk: void;
         }
 
         let rob: Knight = new Knight();
