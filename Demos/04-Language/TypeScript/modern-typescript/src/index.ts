@@ -19,8 +19,8 @@ export function loadContent(page) {
         .get(path)
         .then((resp) => {
             if (resp != null) {
-                $('#workbench').empty();
-                $('#workbench').html(resp.data);
+                let workbench = document.querySelector('#workbench');
+                workbench.innerHTML = resp.data;
             }
         })
         .catch((msg) => {
@@ -36,8 +36,8 @@ export class Loader {
             .get(path)
             .then((resp) => {
                 if (resp != null) {
-                    $('#workbench').empty();
-                    $('#workbench').html(resp.data);
+                    let workbench = document.querySelector('#workbench');
+                    workbench.innerHTML = resp.data;
                 }
             })
             .catch((msg) => {
