@@ -1,14 +1,13 @@
+import axios from 'axios';
 import { ClassesDemos } from './classes';
 import { FunctionDemos } from './functions';
 import { GenericsDemos } from './generics';
 import { InterfacesDemos } from './interfaces';
-import { ObjectDemos } from './objects';
-import { TypesDemos } from './types';
-import { ServicesDemos } from './services';
 import { ModulesDemos } from './modules';
-
-import * as $ from 'jquery';
+import { ObjectDemos } from './objects';
 import { RxJSDemos } from './rxjs';
+import { ServicesDemos } from './services';
+import { TypesDemos } from './types';
 
 //export method to global namespace - otherwise is is not available for function call
 
@@ -16,42 +15,34 @@ import { RxJSDemos } from './rxjs';
 
 export function loadContent(page) {
     let path = './src/' + page;
-    $.ajax({
-        type: 'GET',
-        url: path,
-        contentType: 'application/json; charset=utf-8',
-        dataType: 'text',
-        success: function (data) {
-            if (data != null) {
+    axios
+        .get(path)
+        .then((resp) => {
+            if (resp != null) {
                 $('#workbench').empty();
-                $('#workbench').html(path);
+                $('#workbench').html(resp.data);
             }
-        },
-        error: function (msg) {
+        })
+        .catch((msg) => {
             console.log(msg.responseText);
-        },
-    });
+        });
 }
 
 //Exposing Class to GlobalNamespace
 export class Loader {
     load(page) {
         let path = './src/' + page;
-        $.ajax({
-            type: 'GET',
-            url: path,
-            contentType: 'application/json; charset=utf-8',
-            dataType: 'text',
-            success: function (data) {
-                if (data != null) {
+        axios
+            .get(path)
+            .then((resp) => {
+                if (resp != null) {
                     $('#workbench').empty();
-                    $('#workbench').html(data);
+                    $('#workbench').html(resp.data);
                 }
-            },
-            error: function (msg) {
+            })
+            .catch((msg) => {
                 console.log(msg.responseText);
-            },
-        });
+            });
     }
 }
 
