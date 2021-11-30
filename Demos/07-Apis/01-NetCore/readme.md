@@ -1,4 +1,4 @@
-# REST Api's with .NET Core / .NET 5 & 6
+# .NET Core / .NET 6 REST Api
 
 - Explain Skills Api
 
