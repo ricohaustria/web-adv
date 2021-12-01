@@ -42,4 +42,16 @@ export class SkillsService {
   getSkills(): Observable<Skill[]> {
     return this.skills;
   }
+
+  addSkill(item: Skill) {
+    this.httpClient
+      .post(`${environment.skillsapi}skills`, item)
+      .subscribe(() => console.log('added skill:', item));
+  }
+
+  removeSkill(item: Skill) {
+    this.httpClient
+      .delete(`${environment.skillsapi}skills/${item.id}`)
+      .subscribe(() => console.log('deleted skill: ', item));
+  }
 }

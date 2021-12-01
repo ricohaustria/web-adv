@@ -33,10 +33,11 @@ For device testing it might be helpful to enable remote access - by default the 
 
 ### Setup, Base Scaffolding & Getting started
 
-Allow Chrome to use self signed localhost certs:
+Allow use of self signed localhost certificates on Chrome or Edge:
 
 ```
 chrome://flags/#allow-insecure-localhost
+edge://flags/#allow-insecure-localhost
 ```
 
 #### Create Project with Service Worker

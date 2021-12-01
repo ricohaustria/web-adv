@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
@@ -26,14 +24,14 @@ namespace SkillsApi
         [Route("init")]
         public IActionResult Init()
         {
-            BroadcastMarkers();
+            NotifyChange();
             return Ok();
         }
 
-        private void BroadcastMarkers()
+        private void NotifyChange()
         {
-            Skill[] markers = this.ctx.Skills.ToArray();
-            skillHub.Clients.All.SendAsync("skillsChanged", markers);
+            Skill[] skills = this.ctx.Skills.ToArray();
+            skillHub.Clients.All.SendAsync("skillsChanged", skills);
         }
 
         // http://localhost:5000/api/skills
@@ -64,7 +62,7 @@ namespace SkillsApi
             }
 
             ctx.SaveChanges();
-             BroadcastMarkers();
+            NotifyChange();
             return Ok();
         }
 
@@ -78,7 +76,7 @@ namespace SkillsApi
                 ctx.Remove(v);
                 ctx.SaveChanges();
             }
-             BroadcastMarkers();
+             NotifyChange();
             return Ok();
         }
     }
