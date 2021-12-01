@@ -18,12 +18,11 @@ namespace SkillsApi {
         public SkillDBContext (DbContextOptions<SkillDBContext> options) : base (options) {
 
         }
-
-        protected override void OnModelCreating (ModelBuilder modelBuilder) { }
-
+        
         public DbSet<Skill> Skills { get; set; }
         public DbSet<Topic> Topics { get; set; }
         public DbSet<Demo> Demos { get; set; }
 
+        protected override void OnModelCreating (ModelBuilder modelBuilder) { }
     }
 }

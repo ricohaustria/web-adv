@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -12,7 +11,6 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using Swashbuckle.AspNetCore.Swagger;
 
 namespace SkillsApi {
     public class Startup {
@@ -28,7 +26,7 @@ namespace SkillsApi {
                 .AddJsonFile ("appsettings.json");
             IConfigurationRoot configuration = cfgBuilder.Build ();
 
-            services.AddSingleton (typeof (IConfigurationRoot), configuration);
+            services.AddSingleton (typeof (IConfigurationRoot), configuration);            
             var conStr = configuration["ConnectionStrings:SQLiteDBConnection"];
 
             //EF
@@ -53,7 +51,6 @@ namespace SkillsApi {
             });
 
             //Firebase
-
             var fbProjectId = configuration["Firebase:ProjectId"];
 
             services
