@@ -1,8 +1,23 @@
 # Progressive Web Apps
 
-## Prerequisites: Skills REST Api from folder
+## Links & Readings
 
-Requires [.NET Core SDK v3.1.301](https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.301-windows-x64-installer). You can use SQL Standard or Enterprise - change connection string in appsettings.json.
+[Progressive Web Apps @Google](https://web.dev/progressive-web-apps/)
+
+[Angular Service Workers](https://angular.io/guide/service-worker-intro)
+
+[How to make PWAs installable](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs)
+
+[Debugging Service Workers](https://developers.google.com/web/tools/workbox/guides/troubleshoot-and-debug)
+
+## Demo
+
+---
+
+### .NET 6 Skills Api
+
+- Requires [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0).
+- If you want to use another db engine change connection string in appsettings.json.
 
 Go to folder where `*.csproj` is located, open console and run:
 
@@ -16,14 +31,20 @@ For device testing it might be helpful to enable remote access - by default the 
 
 ---
 
-## Setup & Gettings started
+### Setup, Base Scaffolding & Getting started
 
-### Create Project with Service Worker
+Allow Chrome to use self signed localhost certs:
 
 ```
-ng new ngSkillsPWA
-cd ngSkillsPWA
-ng add @angular/pwa --project ngSkillsPWA
+chrome://flags/#allow-insecure-localhost
+```
+
+#### Create Project with Service Worker
+
+```
+ng new skills-pwa
+cd skills-pwa
+ng add @angular/pwa --project skills-pwa
 ```
 
 Make sure you adjust your `environment.prod` to match IP config of your dev machine
@@ -31,85 +52,30 @@ Make sure you adjust your `environment.prod` to match IP config of your dev mach
 ```
 export const environment = {
   production: true,
-  apiURL: "https://API_DNS-or-IP/api/"
+  api: 'https://localhost:5001/api/',
 };
 ```
 
-Create a prod build
+#### Create a build
 
 ```
-ng build --prod [--watch] [--delete-output-path false]
+ng build --prod [--delete-output-path false]
 ```
 
-## Deploy to Firebase
+> Note: Make sure your envirenment.prod.ts matches environment.ts
 
-```
-npm i -g firebase-tools
-firebase login
-firebase init
-firebase deploy
-```
+#### Serving Build
 
-### Firebase Messaging
-
-Test Messaging from Firebase:
-
-![message-composer](_images/message-composer.png)
-
-Test Messaging - execute in Console:
-
-```
-curl -X POST \
-  https://fcm.googleapis.com/fcm/send \
-  -H 'Authorization: key=YOUR-SERVER-KEY' \
-  -H 'Content-Type: application/json' \
-  -d '{
- "notification": {
-  "title": "Hello World",
-  "body": "This is Message from Admin"
- },
- "to" : "YOUR-GENERATED-TOKEN"
-}'
-```
-
-> YOUR-SERVER-KEY : Find out in Firebase console by open Setting > Cloud Messaging.
-
-![server-key](_images/server-key.png)
-
-> YOUR-GENERATED-TOKEN : you can find out in browser console because we log it in
-
-![token](_images/token.png)
-
-> Make sure you change token db to real time db
-
-![real-time-db](_images/real-time-db.png)
-
-## Tools
-
-### Angular-Http-Server
-
-Can be used to serve your Angular Production Build
+To serve the build you need an http-server. Use `angular-http-server` or `http-server`
 
 ```
 npm install -g angular-http-server
-ng build --prod
-cd .\dist\skillspwa\
+ng build
+cd .\dist\skills-pwa\
 angular-http-server
 ```
 
-#### Use loopback
-
-No cert is needed to register service worker
-
-![loopback](_images/loopback.png)
-
-PWA can be installed
-
-![install](_images/install.png)
-
-#### Use ngrok
-
-![ngrok](_images/http-server.png)
+##### Use https://127.0.0.1:8080
 
 [ngrok](https://ngrok.com/) is a tool that provides an `https-secured tunnel` to `localhost` that enables
 testing your PWAs. Requires registration but is free.
@@ -120,22 +86,3 @@ ngrok.exe http 8080
 
 ![ngrok](_images/ngrok.png)
 
-### Other Tools
-
-[Open Port Detection Tool](https://www.yougetsignal.com/tools/open-ports/)
-
-[Getting Started with Lighthouse](https://developers.google.com/web/tools/lighthouse/)
-
----
-
-## Links & Readings
-
-[Let's encript](https://letsencrypt.org/)
-
-[Certify the Web - IIS Tool](https://certifytheweb.com)
-
-[manifest.json Reference](https://developers.google.com/web/fundamentals/web-app-manifest/)
-
-[Create \*.pem-Certificate](https://www.cloudinsidr.com/content/how-to-install-the-most-recent-version-of-openssl-on-windows-10-in-64-bit/)
-
-[Debugging Service Workers](https://developers.google.com/web/fundamentals/codelabs/debugging-service-workers/)
