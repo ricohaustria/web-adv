@@ -3,40 +3,35 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
 import { AppComponent } from './app.component';
-
-import { AngularFireModule } from 'angularfire2';
-import { AngularFireAuthModule } from 'angularfire2/auth';
-
-import { RegisterComponent } from './firebase/login/register.component';
-import { LoginComponent } from './firebase/login/login.component';
-import { FirebaseComponent } from './firebase/firebase.component';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AuthModule } from '@angular/fire/auth';
 import { MaterialModule } from './material.module';
-import { AuthService } from './firebase/auth.service';
-import { AuthInterceptor } from './auth.interceptor';
 import { environment } from 'src/environments/environment';
+import { FirebaseAuthService } from './firebase/firebase-auth.service';
+import { FirebaseAuthInterceptor } from './firebase/firebase-auth.interceptor';
+import { FBAuthModule } from './firebase/fbauth.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    RegisterComponent,
-    LoginComponent,
-    FirebaseComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
-    AngularFireModule.initializeApp(environment.firebase),
-    AngularFireAuthModule,
-    MaterialModule
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AuthModule,
+    MaterialModule,
+    FBAuthModule,
   ],
   providers: [
-    AuthService,
-    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }
+    FirebaseAuthService,
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: FirebaseAuthInterceptor,
+      multi: true,
+    },
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
