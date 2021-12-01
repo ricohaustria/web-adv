@@ -3,3 +3,5 @@
 - Introduction to [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest)
 - Publish App to App Service
 - Publish Containers
+
+- [Azure Trial Account](https://azure.microsoft.com/en-us/free/)
