@@ -7,7 +7,7 @@ RUN dotnet restore "SkillsApi.csproj"
 RUN dotnet publish -c Release -o /app
 
 # Copy output of build to runtime image
-FROM mcr.microsoft.com/dotnet/aspnet:5.0 AS final
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS final
 WORKDIR /app
 COPY --from=build /app .
 ENTRYPOINT ["dotnet", "SkillsApi.dll"]
