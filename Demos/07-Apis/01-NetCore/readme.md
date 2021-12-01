@@ -1,4 +1,8 @@
-# REST Api's with .NET Core / .NET 5 & 6
+# .NET Core / .NET 6 REST Api
+
+[.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
+
+## Demos
 
 - Explain Skills Api
 
