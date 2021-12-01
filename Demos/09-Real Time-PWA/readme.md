@@ -1,14 +1,4 @@
-# Progressive Web Apps
-
-## Links & Readings
-
-[Progressive Web Apps @Google](https://web.dev/progressive-web-apps/)
-
-[Angular Service Workers](https://angular.io/guide/service-worker-intro)
-
-[How to make PWAs installable](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs)
-
-[Debugging Service Workers](https://developers.google.com/web/tools/workbox/guides/troubleshoot-and-debug)
+# Progressive Web Apps and Real Time Apps
 
 ## Demo
 
@@ -31,7 +21,17 @@ For device testing it might be helpful to enable remote access - by default the 
 
 ---
 
-### Setup, Base Scaffolding & Getting started
+### Progressive Web Apps
+
+[Progressive Web Apps @Google](https://web.dev/progressive-web-apps/)
+
+[Angular Service Workers](https://angular.io/guide/service-worker-intro)
+
+[How to make PWAs installable](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs)
+
+[Debugging Service Workers](https://developers.google.com/web/tools/workbox/guides/troubleshoot-and-debug)
+
+Setup, Base Scaffolding & Getting started:
 
 Allow use of self signed localhost certificates on Chrome or Edge:
 
@@ -76,7 +76,7 @@ cd .\dist\skills-pwa\
 angular-http-server
 ```
 
-##### Use https://127.0.0.1:8080
+#### Use https://127.0.0.1:8080
 
 [ngrok](https://ngrok.com/) is a tool that provides an `https-secured tunnel` to `localhost` that enables
 testing your PWAs. Requires registration but is free.
@@ -87,3 +87,11 @@ ngrok.exe http 8080
 
 ![ngrok](_images/ngrok.png)
 
+
+### Real Time Apps - SignalR
+
+[SignalR](https://docs.microsoft.com/en-us/aspnet/signalr/overview/getting-started/introduction-to-signalr)
+
+[Azure SignalR Service Documentation](https://docs.microsoft.com/en-us/azure/azure-signalr/)
+
+[@microsoft/signalr](https://www.npmjs.com/package/@microsoft/signalr)
