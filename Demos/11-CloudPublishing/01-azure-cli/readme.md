@@ -91,33 +91,6 @@ az appservice plan create -n $appPlan -g $grp --sku B2
 curl https://raw.githubusercontent.com/ARambazamba/AZ-204/master/Labs/create-lab-vm.sh | bash
 ```
 
-#### Create a Lab VM
-
-If you want to execute the labs on a machine where you have full controll please follow this guide:
-
-- Execute `create-lab-vm.azcli`
-- Wait unitl the machine has been pvovisioned
-- Connect to the VM using RDP
-- Execute `Set-ExecutionPolicy bypass` in an elevated prompt using `run as administrator`
-- Execute the script `setup-az-204.ps1` in an elevated prompt
-
-> Note: To connect use the credientials from script `create-lab-vm.azcli`
-
-```
-rnd=$RANDOM
-loc=westeurope
-grp=az204-lab
-vmname=labvm-$rnd
-user=az204lab
-pwd=Lab@dmin1233
-
-az group create -n $grp -l $loc
-
-az vm create -g $grp -n $vmname --admin-username $user --admin-password $pwd --image MicrosoftWindowsDesktop:Windows-10:20h2-entn-g2:19042.630.2011061636 --size Standard_E2s_v3
-```
-
-> Note: We are using this image and vm size because it supports nested virtualization
-
 ### Troubleshoot CLI
 
 Select Directory:
