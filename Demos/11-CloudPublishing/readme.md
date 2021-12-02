@@ -4,4 +4,6 @@
 - Publish App to App Service
 - Publish Containers
 
-- [Azure Trial Account](https://azure.microsoft.com/en-us/free/)
+## Labs
+
+[Azure Static Web Apps](https://docs.microsoft.com/en-us/learn/paths/azure-static-web-apps/)
