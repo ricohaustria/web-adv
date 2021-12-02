@@ -5,7 +5,7 @@ namespace SkillsApi
 {
     public class SkillHub : Hub
     {
-        public Task BroadcastMarkers(Skill[] skills)
+        public Task NotifyChange(Skill[] skills)
         {
             return Clients.All.SendAsync("skillsChanged", skills);
         }

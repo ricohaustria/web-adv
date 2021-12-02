@@ -9,3 +9,5 @@
 ## Labs
 
 [Get started with the Windows Subsystem for Linux](https://docs.microsoft.com/en-us/learn/modules/get-started-with-windows-subsystem-for-linux/)
+
+[Build a containerized web application with Docker](https://docs.microsoft.com/en-us/learn/modules/intro-to-containers/)
