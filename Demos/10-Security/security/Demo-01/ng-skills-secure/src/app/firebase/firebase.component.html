@@ -1,0 +1,11 @@
+<div fxLayout="column" fxLayoutGap="20px" class="container">
+    <h1>Using Token Auth</h1>
+    <app-login></app-login>
+    <app-register></app-register>
+    <div class="tester">
+        <h3>Test Secure Call:</h3>
+        <button mat-raised-button color="accent" (click)="callWS()">Call Secured Webservice</button>
+        <div>{{ resp | json }}</div>
+        <div>{{ err }}</div>
+    </div>
+</div>

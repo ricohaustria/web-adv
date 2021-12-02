@@ -8,7 +8,7 @@ export interface ISkillItemProps {
 
 export const SkillItem : FC<ISkillItemProps> = (props: ISkillItemProps )=>{
 
-    const {  name } = props.item;
+    const { name } = props.item;
 
     const skillClicked = ()=> {console.log(`Deleting skill:  ${ name}`)}
 

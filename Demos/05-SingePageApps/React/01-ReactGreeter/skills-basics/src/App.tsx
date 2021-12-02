@@ -1,7 +1,7 @@
-import SkillList from './components/SkillList';
-import { Greeting } from './components/Greeting';
 import * as React from 'react';
 import './App.css';
+import { Greeting } from './components/Greeting';
+import SkillList from './components/SkillList';
 import { Skill } from './skill';
 
 const logo = require('./logo.svg');

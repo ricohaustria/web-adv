@@ -8,19 +8,21 @@ export interface SkillListProps {
 
 export interface SkillListState {
 	skills: Skill[];
+	showList: boolean;
 }
 
 export default class SkillList extends React.Component<SkillListProps, SkillListState> {
 	constructor(props: SkillListProps) {
 		super(props);
 		this.state = {
-			skills: this.props.skills
+			skills: this.props.skills,
+			showList: true
 		};
 	}
 
 	render() {
 		return (
-			<div className="container">
+			<div className="container" hidden={!this.state.showList} >
 				<div>Your need the follwowing skills</div>
 				<ul>
 					{this.state.skills.map((item) => {

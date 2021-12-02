@@ -76,11 +76,13 @@ function objectWithMethod() {
     function SoccerPlayer(name, goals) {
         this.name = name;
         this.goals = goals;
-        this.scoreGoal = function () {
+        this.scoreGoal = () => {
             console.log("I am " + this.name + " and I scored " + this.goals + " goals!");
         }
     }
+    
     var marko = new SoccerPlayer("Marko Arnautovic", 3);
+    marko.scoreGoal();
     var alb = new SoccerPlayer("David Alaba", 2);
 
     marko.tellScore = function () { console.log("Until now I scored " + this.goals + " goals") }

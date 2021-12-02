@@ -114,3 +114,9 @@ Neue Themengebiete werden anhand von Folien, Demos und Beispielen erarbeitet. Na
 - Common Identity Providers: Azure AD, Firebase, Social
 - OpenID Connect, JSON Web Tokens (Jwt) & oAuth
 - Implementing Token based Authentication for Single Page Apps
+
+## Introduction to Cloud Publishing
+
+- Introduction to [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/reference-index?view=azure-cli-latest)
+- Publish App to Cloud Services
+- Publish Containers

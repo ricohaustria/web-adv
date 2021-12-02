@@ -26,7 +26,7 @@ namespace SkillsApi {
                 .AddJsonFile ("appsettings.json");
             IConfigurationRoot configuration = cfgBuilder.Build ();
 
-            services.AddSingleton (typeof (IConfigurationRoot), configuration);            
+            services.AddSingleton (typeof (IConfigurationRoot), configuration);
             var conStr = configuration["ConnectionStrings:SQLiteDBConnection"];
 
             //EF
@@ -40,6 +40,9 @@ namespace SkillsApi {
             var conStrLite = configuration["ConnectionStrings:SQLiteDBConnection"];
             services.AddEntityFrameworkSqlite ().AddDbContext<SkillDBContext> (options => options.UseSqlite (conStrLite));
 
+            //SignalR
+            services.AddSignalR();
+
             // Cors
             services.AddCors (options => {
                 options.AddPolicy ("allowAll",
@@ -51,6 +54,7 @@ namespace SkillsApi {
             });
 
             //Firebase
+
             var fbProjectId = configuration["Firebase:ProjectId"];
 
             services
@@ -107,6 +111,7 @@ namespace SkillsApi {
 
             app.UseEndpoints (endpoints => {
                 endpoints.MapControllers ();
+                endpoints.MapHub<SkillHub>("/skillhub");
             });
         }
     }
