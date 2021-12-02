@@ -25,7 +25,7 @@ export class SkillsComponent implements OnInit {
   }
 
   addSkill() {
-    let sk: Skill = { id: this.skills.length + 1, name: this.skillToAdd };
+    let sk: Skill = { id: this.skills.length + 1, title: this.skillToAdd };
     this.skills.push(sk);
   }
 }
